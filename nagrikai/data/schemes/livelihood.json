@@ -1,0 +1,1126 @@
+[
+  {
+    "id": "pm-kisan",
+    "level": "household",
+    "name": {
+      "en": "PM-KISAN Samman Nidhi",
+      "hi": "पीएम-किसान सम्मान निधि"
+    },
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "category": "agriculture",
+    "summary": {
+      "en": "Direct income support to landholding farmer families.",
+      "hi": "भूमिधारक किसान परिवारों को सीधी आय सहायता।"
+    },
+    "benefit": {
+      "en": "₹6,000 per year in three instalments of ₹2,000",
+      "hi": "₹2,000 की तीन किस्तों में सालाना ₹6,000",
+      "cashPerYear": 6000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "farmer"
+        },
+        {
+          "field": "landHectares",
+          "op": "gt",
+          "value": 0,
+          "label": {
+            "en": "Owns cultivable land in own name",
+            "hi": "अपने नाम पर खेती योग्य ज़मीन"
+          }
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Not a constitutional post holder, professional (doctor/CA/lawyer etc.), or pensioner getting ₹10,000+/month",
+        "hi": "संवैधानिक पदधारी, पेशेवर (डॉक्टर/CA/वकील आदि) या ₹10,000+/माह पेंशन पाने वाले न हों"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "land_records",
+      "bank_passbook",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "Self-register on pmkisan.gov.in ('New Farmer Registration'), or via CSC / Patwari. Complete e-KYC to receive instalments.",
+      "hi": "pmkisan.gov.in पर 'नया किसान पंजीकरण' करें, या CSC / पटवारी के माध्यम से। किस्त पाने के लिए e-KYC पूरा करें।"
+    },
+    "applyUrl": "https://pmkisan.gov.in",
+    "sourceUrl": "https://pmkisan.gov.in",
+    "helpline": "155261",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Register any time; keep e-KYC and Aadhaar-bank seeding complete before each instalment.",
+        "hi": "कभी भी पंजीकरण करें; हर किस्त से पहले e-KYC और आधार-बैंक लिंकिंग पूरी रखें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmfby",
+    "name": {
+      "en": "PM Fasal Bima Yojana (Crop insurance)",
+      "hi": "प्रधानमंत्री फसल बीमा योजना"
+    },
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "category": "agriculture",
+    "summary": {
+      "en": "Low-premium insurance against crop loss from drought, flood, pests and other natural risks.",
+      "hi": "सूखा, बाढ़, कीट आदि से फसल नुकसान के लिए कम प्रीमियम वाला बीमा।"
+    },
+    "benefit": {
+      "en": "Farmer pays only 2% (Kharif), 1.5% (Rabi), 5% (commercial/horticulture) of sum insured",
+      "hi": "किसान केवल 2% (खरीफ़), 1.5% (रबी), 5% (वाणिज्यिक/बागवानी) प्रीमियम देता है"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "farmer",
+          "label": {
+            "en": "Farmer (owner, tenant or sharecropper) growing notified crops",
+            "hi": "अधिसूचित फसल उगाने वाला किसान (मालिक, बटाईदार या किरायेदार)"
+          }
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "land_records",
+      "sowing_cert",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Enrol through your bank, CSC, insurance company or pmfby.gov.in before the season cut-off date.",
+      "hi": "सीज़न की अंतिम तिथि से पहले बैंक, CSC, बीमा कंपनी या pmfby.gov.in से नामांकन करें।"
+    },
+    "applyUrl": "https://pmfby.gov.in",
+    "sourceUrl": "https://pmfby.gov.in",
+    "helpline": "14447",
+    "deadline": {
+      "type": "annual",
+      "month": 7,
+      "day": 31,
+      "note": {
+        "en": "Kharif enrolment usually closes around 31 July and Rabi around 31 December — check the notified date for your state.",
+        "hi": "खरीफ़ नामांकन आमतौर पर 31 जुलाई और रबी 31 दिसंबर के आसपास बंद होता है — अपने राज्य की अधिसूचित तिथि देखें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "kcc",
+    "name": {
+      "en": "Kisan Credit Card (KCC)",
+      "hi": "किसान क्रेडिट कार्ड"
+    },
+    "ministry": "Ministry of Agriculture & Farmers Welfare / RBI / NABARD",
+    "category": "agriculture",
+    "summary": {
+      "en": "Cheap short-term crop loans for farmers, fishers and animal-husbandry farmers.",
+      "hi": "किसानों, मछुआरों और पशुपालकों के लिए सस्ता अल्पकालिक फसल ऋण।"
+    },
+    "benefit": {
+      "en": "Crop loan at 7% interest, effectively 4% with prompt repayment (on loans up to ₹3 lakh; enhancement announced in Budget 2025)",
+      "hi": "7% ब्याज पर फसल ऋण, समय पर चुकाने पर प्रभावी 4% (₹3 लाख तक के ऋण पर; बजट 2025 में सीमा बढ़ाने की घोषणा)"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "in",
+          "value": [
+            "farmer",
+            "fisherman"
+          ]
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "land_records",
+      "photo",
+      "pan"
+    ],
+    "howToApply": {
+      "en": "Apply at any bank branch or via the PM-KISAN portal's KCC form.",
+      "hi": "किसी भी बैंक शाखा में या PM-KISAN पोर्टल के KCC फ़ॉर्म से आवेदन करें।"
+    },
+    "applyUrl": "https://pmkisan.gov.in",
+    "sourceUrl": "https://www.nabard.org",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time; card is reviewed annually.",
+        "hi": "कभी भी आवेदन करें; कार्ड की सालाना समीक्षा होती है।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "soil-health-card",
+    "name": {
+      "en": "Soil Health Card",
+      "hi": "मृदा स्वास्थ्य कार्ड"
+    },
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "category": "agriculture",
+    "summary": {
+      "en": "Free soil testing with crop-wise fertiliser recommendations.",
+      "hi": "मुफ़्त मिट्टी जाँच और फसल अनुसार खाद की सलाह।"
+    },
+    "benefit": {
+      "en": "Free soil test report and fertiliser advice",
+      "hi": "मुफ़्त मिट्टी जाँच रिपोर्ट और खाद सलाह"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "farmer"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "land_records"
+    ],
+    "howToApply": {
+      "en": "Contact the agriculture department / Krishi Vigyan Kendra or register on soilhealth.dac.gov.in.",
+      "hi": "कृषि विभाग / कृषि विज्ञान केंद्र से संपर्क करें या soilhealth.dac.gov.in पर पंजीकरण करें।"
+    },
+    "applyUrl": "https://soilhealth.dac.gov.in",
+    "sourceUrl": "https://soilhealth.dac.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Best done before the sowing season.",
+        "hi": "बुवाई से पहले कराना सबसे अच्छा।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pm-kusum",
+    "name": {
+      "en": "PM-KUSUM (Solar pumps for farmers)",
+      "hi": "पीएम-कुसुम (किसानों के लिए सोलर पंप)"
+    },
+    "ministry": "Ministry of New & Renewable Energy",
+    "category": "agriculture",
+    "summary": {
+      "en": "Subsidised solar irrigation pumps and solarisation of existing grid pumps.",
+      "hi": "रियायती सोलर सिंचाई पंप और मौजूदा पंपों का सौरीकरण।"
+    },
+    "benefit": {
+      "en": "Central 30% (50% in hilly/NE) + state share; farmer typically pays about 40% or less",
+      "hi": "केंद्र 30% (पहाड़ी/पूर्वोत्तर में 50%) + राज्य हिस्सा; किसान आमतौर पर लगभग 40% या कम देता है"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "farmer"
+        },
+        {
+          "field": "landHectares",
+          "op": "gt",
+          "value": 0
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "land_records",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply on your state's PM-KUSUM portal (state agriculture / energy department) when applications open.",
+      "hi": "आवेदन खुलने पर अपने राज्य के PM-KUSUM पोर्टल (कृषि / ऊर्जा विभाग) पर आवेदन करें।"
+    },
+    "applyUrl": "https://pmkusum.mnre.gov.in",
+    "sourceUrl": "https://pmkusum.mnre.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "States open application windows periodically.",
+        "hi": "राज्य समय-समय पर आवेदन खोलते हैं।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pm-kmy",
+    "name": {
+      "en": "PM Kisan Maan-dhan Yojana (Farmer pension)",
+      "hi": "प्रधानमंत्री किसान मान-धन योजना (किसान पेंशन)"
+    },
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "category": "pension",
+    "summary": {
+      "en": "Pension for small and marginal farmers — government matches your monthly contribution.",
+      "hi": "छोटे और सीमांत किसानों के लिए पेंशन — सरकार आपके मासिक योगदान के बराबर जमा करती है।"
+    },
+    "benefit": {
+      "en": "₹3,000/month pension after 60; contribution ₹55–₹200/month",
+      "hi": "60 के बाद ₹3,000/माह पेंशन; योगदान ₹55–₹200/माह"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "farmer"
+        },
+        {
+          "field": "landHectares",
+          "op": "lte",
+          "value": 2,
+          "label": {
+            "en": "Small / marginal farmer (up to 2 hectares)",
+            "hi": "छोटा / सीमांत किसान (2 हेक्टेयर तक)"
+          }
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            40
+          ]
+        },
+        {
+          "field": "isEpfoMember",
+          "op": "false"
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "land_records",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Enrol at a CSC or on maandhan.in.",
+      "hi": "CSC या maandhan.in पर नामांकन करें।"
+    },
+    "applyUrl": "https://maandhan.in",
+    "sourceUrl": "https://maandhan.in",
+    "helpline": "1800-267-6888",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Must join before turning 40.",
+        "hi": "40 वर्ष से पहले जुड़ना ज़रूरी।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmmsy",
+    "name": {
+      "en": "PM Matsya Sampada Yojana (Fisheries)",
+      "hi": "प्रधानमंत्री मत्स्य संपदा योजना"
+    },
+    "ministry": "Ministry of Fisheries, Animal Husbandry & Dairying",
+    "category": "agriculture",
+    "summary": {
+      "en": "Subsidy for fishers and fish farmers for ponds, boats, cold chains and other fisheries projects.",
+      "hi": "मछुआरों और मत्स्य पालकों को तालाब, नाव, कोल्ड चेन आदि परियोजनाओं के लिए सब्सिडी।"
+    },
+    "benefit": {
+      "en": "40% project subsidy (60% for SC/ST/women)",
+      "hi": "परियोजना पर 40% सब्सिडी (SC/ST/महिलाओं को 60%)"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "fisherman"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "bank_passbook",
+      "business_plan",
+      "caste_cert"
+    ],
+    "howToApply": {
+      "en": "Apply through the District Fisheries Office with a project proposal.",
+      "hi": "प्रोजेक्ट प्रस्ताव के साथ ज़िला मत्स्य कार्यालय के माध्यम से आवेदन करें।"
+    },
+    "applyUrl": "https://pmmsy.dof.gov.in",
+    "sourceUrl": "https://pmmsy.dof.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "States invite proposals annually.",
+        "hi": "राज्य हर साल प्रस्ताव आमंत्रित करते हैं।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mgnrega",
+    "level": "household",
+    "name": {
+      "en": "Rural Employment Guarantee (MGNREGA)",
+      "hi": "ग्रामीण रोज़गार गारंटी (मनरेगा)"
+    },
+    "ministry": "Ministry of Rural Development",
+    "category": "employment",
+    "summary": {
+      "en": "Guaranteed paid work (unskilled manual labour) for every rural household that asks for it.",
+      "hi": "काम माँगने वाले हर ग्रामीण परिवार को गारंटीड मज़दूरी वाला काम (अकुशल श्रम)।"
+    },
+    "benefit": {
+      "en": "At least 100 days of wage employment per household per year at state-notified wage rates",
+      "hi": "प्रति परिवार प्रति वर्ष कम से कम 100 दिन का काम, राज्य द्वारा अधिसूचित मज़दूरी दर पर",
+      "cashPerYear": 25000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "rural"
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Willing to do unskilled manual work",
+        "hi": "अकुशल शारीरिक श्रम करने को तैयार"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "photo",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Apply for a free job card at the Gram Panchayat, then submit a written demand for work — work must be given within 15 days.",
+      "hi": "ग्राम पंचायत में मुफ़्त जॉब कार्ड के लिए आवेदन करें, फिर लिखित में काम माँगें — 15 दिन में काम मिलना चाहिए।"
+    },
+    "applyUrl": "https://nrega.nic.in",
+    "sourceUrl": "https://nrega.nic.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Demand work any time. Note: the rural employment law was being restructured in 2025 — verify the current days/wages on the official portal.",
+        "hi": "कभी भी काम माँगें। नोट: 2025 में ग्रामीण रोज़गार कानून में बदलाव प्रस्तावित था — वर्तमान दिन/मज़दूरी आधिकारिक पोर्टल पर जाँचें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pm-svanidhi",
+    "name": {
+      "en": "PM SVANidhi (Street vendor loans)",
+      "hi": "पीएम स्वनिधि (रेहड़ी-पटरी वालों के लिए ऋण)"
+    },
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "category": "business",
+    "summary": {
+      "en": "Collateral-free working capital loans for street vendors, with interest subsidy and digital cashback.",
+      "hi": "रेहड़ी-पटरी वालों के लिए बिना गारंटी कार्यशील पूंजी ऋण, ब्याज सब्सिडी और डिजिटल कैशबैक के साथ।"
+    },
+    "benefit": {
+      "en": "Loans in increasing tranches (up to ₹50,000), 7% interest subsidy, cashback on digital payments",
+      "hi": "बढ़ती किस्तों में ऋण (₹50,000 तक), 7% ब्याज सब्सिडी, डिजिटल भुगतान पर कैशबैक"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "street_vendor"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Certificate of Vending / identified in ULB survey, or a Letter of Recommendation from the ULB",
+        "hi": "वेंडिंग प्रमाण पत्र / नगर निकाय सर्वे में नाम, या नगर निकाय से अनुशंसा पत्र"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "vendor_cert",
+      "bank_passbook",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "Apply on pmsvanidhi.mohua.gov.in, through a CSC, or at your municipal office / bank.",
+      "hi": "pmsvanidhi.mohua.gov.in पर, CSC से, या नगर निगम कार्यालय / बैंक में आवेदन करें।"
+    },
+    "applyUrl": "https://pmsvanidhi.mohua.gov.in",
+    "sourceUrl": "https://pmsvanidhi.mohua.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Scheme extended with revised loan tranches in 2025 — check current amounts on the portal.",
+        "hi": "2025 में संशोधित ऋण किस्तों के साथ योजना बढ़ाई गई — वर्तमान राशि पोर्टल पर देखें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mudra",
+    "name": {
+      "en": "PM Mudra Yojana (Small business loans)",
+      "hi": "प्रधानमंत्री मुद्रा योजना (छोटे व्यवसाय ऋण)"
+    },
+    "ministry": "Ministry of Finance (Dept. of Financial Services)",
+    "category": "business",
+    "summary": {
+      "en": "Collateral-free loans for starting or growing small non-farm businesses.",
+      "hi": "छोटे गैर-कृषि व्यवसाय शुरू करने या बढ़ाने के लिए बिना गारंटी ऋण।"
+    },
+    "benefit": {
+      "en": "Shishu up to ₹50,000 · Kishore up to ₹5 lakh · Tarun up to ₹10 lakh · Tarun Plus up to ₹20 lakh",
+      "hi": "शिशु ₹50,000 तक · किशोर ₹5 लाख तक · तरुण ₹10 लाख तक · तरुण प्लस ₹20 लाख तक"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        },
+        {
+          "any": [
+            {
+              "field": "wantsToStartBusiness",
+              "op": "true"
+            },
+            {
+              "field": "occupation",
+              "op": "in",
+              "value": [
+                "self_employed",
+                "street_vendor",
+                "artisan"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "pan",
+      "business_plan",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply at any bank / NBFC / MFI, or online via the JanSamarth portal.",
+      "hi": "किसी भी बैंक / NBFC / MFI में, या JanSamarth पोर्टल पर ऑनलाइन आवेदन करें।"
+    },
+    "applyUrl": "https://www.jansamarth.in",
+    "sourceUrl": "https://www.mudra.org.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "standup-india",
+    "name": {
+      "en": "Stand-Up India",
+      "hi": "स्टैंड-अप इंडिया"
+    },
+    "ministry": "Ministry of Finance (SIDBI)",
+    "category": "business",
+    "summary": {
+      "en": "Bank loans for SC/ST and women entrepreneurs starting a new enterprise.",
+      "hi": "नया उद्यम शुरू करने वाले SC/ST और महिला उद्यमियों के लिए बैंक ऋण।"
+    },
+    "benefit": {
+      "en": "Loans from ₹10 lakh to ₹1 crore for a greenfield enterprise",
+      "hi": "नए उद्यम के लिए ₹10 लाख से ₹1 करोड़ तक का ऋण"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        },
+        {
+          "field": "wantsToStartBusiness",
+          "op": "true"
+        },
+        {
+          "any": [
+            {
+              "field": "gender",
+              "op": "eq",
+              "value": "female"
+            },
+            {
+              "field": "category",
+              "op": "in",
+              "value": [
+                "sc",
+                "st"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "pan",
+      "caste_cert",
+      "business_plan",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Apply on standupmitra.in or at a scheduled commercial bank branch.",
+      "hi": "standupmitra.in पर या किसी अनुसूचित वाणिज्यिक बैंक शाखा में आवेदन करें।"
+    },
+    "applyUrl": "https://www.standupmitra.in",
+    "sourceUrl": "https://www.standupmitra.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmegp",
+    "name": {
+      "en": "PM Employment Generation Programme (PMEGP)",
+      "hi": "प्रधानमंत्री रोज़गार सृजन कार्यक्रम"
+    },
+    "ministry": "Ministry of MSME (KVIC)",
+    "category": "business",
+    "summary": {
+      "en": "Subsidy-linked bank loans to set up new micro-enterprises.",
+      "hi": "नए सूक्ष्म उद्यम लगाने के लिए सब्सिडी सहित बैंक ऋण।"
+    },
+    "benefit": {
+      "en": "Subsidy of 15–35% of project cost (higher for SC/ST/OBC/women/PwD/rural)",
+      "hi": "परियोजना लागत पर 15–35% सब्सिडी (SC/ST/OBC/महिला/दिव्यांग/ग्रामीण के लिए अधिक)"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        },
+        {
+          "field": "wantsToStartBusiness",
+          "op": "true"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Class 8 pass for manufacturing projects above ₹10 lakh / service above ₹5 lakh",
+        "hi": "₹10 लाख से अधिक विनिर्माण / ₹5 लाख से अधिक सेवा परियोजना के लिए 8वीं पास"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "pan",
+      "business_plan",
+      "caste_cert",
+      "marksheet"
+    ],
+    "howToApply": {
+      "en": "Apply online on the KVIC PMEGP e-portal; the District Industries Centre / KVIC reviews and forwards to a bank.",
+      "hi": "KVIC PMEGP ई-पोर्टल पर ऑनलाइन आवेदन करें; ज़िला उद्योग केंद्र / KVIC समीक्षा कर बैंक को भेजता है।"
+    },
+    "applyUrl": "https://www.kviconline.gov.in/pmegpeportal",
+    "sourceUrl": "https://www.kviconline.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pm-vishwakarma",
+    "name": {
+      "en": "PM Vishwakarma (Artisans & craftspeople)",
+      "hi": "पीएम विश्वकर्मा (कारीगर और शिल्पकार)"
+    },
+    "ministry": "Ministry of MSME",
+    "category": "skill",
+    "summary": {
+      "en": "Recognition, training, toolkit and cheap loans for traditional artisans in 18 trades (carpenter, tailor, potter, cobbler, barber, mason, etc.).",
+      "hi": "18 पारंपरिक व्यवसायों (बढ़ई, दर्ज़ी, कुम्हार, मोची, नाई, राजमिस्त्री आदि) के कारीगरों को पहचान, प्रशिक्षण, टूलकिट और सस्ता ऋण।"
+    },
+    "benefit": {
+      "en": "₹15,000 toolkit e-voucher, training with ₹500/day stipend, collateral-free loans of ₹1 lakh + ₹2 lakh at 5%",
+      "hi": "₹15,000 टूलकिट ई-वाउचर, ₹500/दिन वज़ीफ़े के साथ प्रशिक्षण, 5% पर ₹1 लाख + ₹2 लाख बिना गारंटी ऋण",
+      "oneTime": 15000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "artisan",
+          "label": {
+            "en": "Artisan / craftsperson in one of the 18 listed trades",
+            "hi": "18 सूचीबद्ध व्यवसायों में से किसी एक के कारीगर / शिल्पकार"
+          }
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Only one member per family; no PMEGP / PM SVANidhi / Mudra loan in the last 5 years",
+        "hi": "प्रति परिवार केवल एक सदस्य; पिछले 5 वर्षों में PMEGP / पीएम स्वनिधि / मुद्रा ऋण न लिया हो"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "mobile",
+      "bank_passbook",
+      "ration_card",
+      "trade_proof"
+    ],
+    "howToApply": {
+      "en": "Register at a CSC with Aadhaar biometric; verification by Gram Panchayat / ULB.",
+      "hi": "आधार बायोमेट्रिक से CSC पर पंजीकरण करें; सत्यापन ग्राम पंचायत / नगर निकाय करेगा।"
+    },
+    "applyUrl": "https://pmvishwakarma.gov.in",
+    "sourceUrl": "https://pmvishwakarma.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Register any time.",
+        "hi": "कभी भी पंजीकरण करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmkvy",
+    "name": {
+      "en": "PM Kaushal Vikas Yojana 4.0 (Free skill training)",
+      "hi": "प्रधानमंत्री कौशल विकास योजना 4.0 (मुफ़्त कौशल प्रशिक्षण)"
+    },
+    "ministry": "Ministry of Skill Development & Entrepreneurship",
+    "category": "skill",
+    "summary": {
+      "en": "Free short-term skill training with a government certificate and placement support.",
+      "hi": "सरकारी प्रमाण पत्र और नौकरी सहायता के साथ मुफ़्त अल्पकालिक कौशल प्रशिक्षण।"
+    },
+    "benefit": {
+      "en": "Free training + certification; recognition of prior learning for experienced workers",
+      "hi": "मुफ़्त प्रशिक्षण + प्रमाणन; अनुभवी कामगारों के लिए पूर्व ज्ञान की मान्यता"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            15,
+            45
+          ]
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "bank_passbook",
+      "marksheet"
+    ],
+    "howToApply": {
+      "en": "Register on Skill India Digital Hub and choose a nearby training centre.",
+      "hi": "स्किल इंडिया डिजिटल हब पर पंजीकरण करें और नज़दीकी प्रशिक्षण केंद्र चुनें।"
+    },
+    "applyUrl": "https://www.skillindiadigital.gov.in",
+    "sourceUrl": "https://www.msde.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Batches start throughout the year.",
+        "hi": "पूरे साल बैच शुरू होते हैं।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "ddu-gky",
+    "name": {
+      "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+      "hi": "दीन दयाल उपाध्याय ग्रामीण कौशल्य योजना"
+    },
+    "ministry": "Ministry of Rural Development",
+    "category": "skill",
+    "summary": {
+      "en": "Free residential skill training with guaranteed placement for rural poor youth.",
+      "hi": "ग्रामीण गरीब युवाओं के लिए गारंटीड प्लेसमेंट के साथ मुफ़्त आवासीय कौशल प्रशिक्षण।"
+    },
+    "benefit": {
+      "en": "Free training, boarding, uniform and placement (minimum salary as per guidelines)",
+      "hi": "मुफ़्त प्रशिक्षण, रहना-खाना, वर्दी और प्लेसमेंट (दिशानिर्देशों अनुसार न्यूनतम वेतन)"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "rural"
+        },
+        {
+          "field": "isBPL",
+          "op": "true",
+          "label": {
+            "en": "From a rural poor household",
+            "hi": "ग्रामीण गरीब परिवार से"
+          }
+        },
+        {
+          "any": [
+            {
+              "field": "age",
+              "op": "between",
+              "value": [
+                15,
+                35
+              ]
+            },
+            {
+              "all": [
+                {
+                  "field": "age",
+                  "op": "between",
+                  "value": [
+                    15,
+                    45
+                  ]
+                },
+                {
+                  "any": [
+                    {
+                      "field": "gender",
+                      "op": "eq",
+                      "value": "female"
+                    },
+                    {
+                      "field": "category",
+                      "op": "in",
+                      "value": [
+                        "sc",
+                        "st"
+                      ]
+                    },
+                    {
+                      "field": "isDisabled",
+                      "op": "true"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "ration_card",
+      "job_card",
+      "age_proof",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Contact the Block / District Rural Livelihood Mission office or register on the Kaushal Panjee portal.",
+      "hi": "ब्लॉक / ज़िला ग्रामीण आजीविका मिशन कार्यालय से संपर्क करें या कौशल पंजी पोर्टल पर पंजीकरण करें।"
+    },
+    "applyUrl": "https://kaushalpanjee.nic.in",
+    "sourceUrl": "https://ddugky.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Batches start throughout the year.",
+        "hi": "पूरे साल बैच शुरू होते हैं।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "day-nrlm",
+    "name": {
+      "en": "DAY-NRLM (Self-Help Groups / Lakhpati Didi)",
+      "hi": "दीनदयाल अंत्योदय योजना – राष्ट्रीय ग्रामीण आजीविका मिशन (स्वयं सहायता समूह / लखपति दीदी)"
+    },
+    "ministry": "Ministry of Rural Development",
+    "category": "women_child",
+    "summary": {
+      "en": "Rural women join Self-Help Groups to access savings, low-interest bank loans and livelihood support.",
+      "hi": "ग्रामीण महिलाएं स्वयं सहायता समूह से जुड़कर बचत, कम ब्याज बैंक ऋण और आजीविका सहायता पा सकती हैं।"
+    },
+    "benefit": {
+      "en": "Revolving fund & community investment fund for SHGs, collateral-free bank loans with interest subvention",
+      "hi": "SHG के लिए रिवॉल्विंग फंड और सामुदायिक निवेश निधि, ब्याज छूट के साथ बिना गारंटी बैंक ऋण"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "rural"
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Contact the village SHG / Community Resource Person or the Block Mission Management Unit.",
+      "hi": "गाँव के SHG / सामुदायिक संसाधन व्यक्ति या ब्लॉक मिशन प्रबंधन इकाई से संपर्क करें।"
+    },
+    "applyUrl": "https://aajeevika.gov.in",
+    "sourceUrl": "https://aajeevika.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Join any time.",
+        "hi": "कभी भी जुड़ें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pm-daksh",
+    "name": {
+      "en": "PM-DAKSH (Skill training for SC/OBC/Safai Karamcharis)",
+      "hi": "पीएम-दक्ष (SC/OBC/सफ़ाई कर्मचारियों के लिए कौशल प्रशिक्षण)"
+    },
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "category": "skill",
+    "summary": {
+      "en": "Free skill training with stipend for SC, OBC, EBC, DNT and sanitation workers.",
+      "hi": "SC, OBC, EBC, DNT और सफ़ाई कर्मचारियों के लिए वज़ीफ़े सहित मुफ़्त कौशल प्रशिक्षण।"
+    },
+    "benefit": {
+      "en": "Free training (up-skilling, re-skilling, short-term, entrepreneurship) with stipend and placement support",
+      "hi": "वज़ीफ़े और प्लेसमेंट सहायता के साथ मुफ़्त प्रशिक्षण (अप-स्किलिंग, री-स्किलिंग, अल्पकालिक, उद्यमिता)"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "category",
+          "op": "in",
+          "value": [
+            "sc",
+            "obc"
+          ]
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            45
+          ]
+        },
+        {
+          "field": "annualIncome",
+          "op": "lte",
+          "value": 300000
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "caste_cert",
+      "income_cert",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Register on the PM-DAKSH portal and choose a training institute.",
+      "hi": "पीएम-दक्ष पोर्टल पर पंजीकरण करें और प्रशिक्षण संस्थान चुनें।"
+    },
+    "applyUrl": "https://pmdaksh.dosje.gov.in",
+    "sourceUrl": "https://pmdaksh.dosje.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Batches open through the year.",
+        "hi": "पूरे साल बैच खुलते हैं।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pm-internship",
+    "name": {
+      "en": "PM Internship Scheme",
+      "hi": "प्रधानमंत्री इंटर्नशिप योजना"
+    },
+    "ministry": "Ministry of Corporate Affairs",
+    "category": "employment",
+    "summary": {
+      "en": "12-month paid internships in India's top companies for youth aged 21–24.",
+      "hi": "21–24 वर्ष के युवाओं के लिए भारत की शीर्ष कंपनियों में 12 महीने की सवेतन इंटर्नशिप।"
+    },
+    "benefit": {
+      "en": "₹5,000/month for 12 months + ₹6,000 one-time grant + insurance",
+      "hi": "12 महीने तक ₹5,000/माह + ₹6,000 एकमुश्त अनुदान + बीमा",
+      "cashPerYear": 60000,
+      "oneTime": 6000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            21,
+            24
+          ]
+        },
+        {
+          "field": "annualIncome",
+          "op": "lte",
+          "value": 800000,
+          "label": {
+            "en": "Family income up to ₹8 lakh",
+            "hi": "पारिवारिक आय ₹8 लाख तक"
+          }
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false",
+          "label": {
+            "en": "No family member is a regular government employee",
+            "hi": "परिवार में कोई नियमित सरकारी कर्मचारी नहीं"
+          }
+        },
+        {
+          "field": "occupation",
+          "op": "nin",
+          "value": [
+            "salaried_private",
+            "govt_employee"
+          ],
+          "label": {
+            "en": "Not in full-time employment",
+            "hi": "पूर्णकालिक नौकरी में नहीं"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Not in full-time education; not a graduate of IIT/IIM/NLU etc. or a CA/CS/MBBS",
+        "hi": "पूर्णकालिक पढ़ाई में न हों; IIT/IIM/NLU आदि या CA/CS/MBBS डिग्रीधारी न हों"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "marksheet",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Register on pminternship.mca.gov.in and apply to up to 5 internships in each round.",
+      "hi": "pminternship.mca.gov.in पर पंजीकरण करें और हर राउंड में 5 इंटर्नशिप तक आवेदन करें।"
+    },
+    "applyUrl": "https://pminternship.mca.gov.in",
+    "sourceUrl": "https://pminternship.mca.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Applications open in rounds — check the portal for the current round.",
+        "hi": "आवेदन राउंड में खुलते हैं — वर्तमान राउंड पोर्टल पर देखें।"
+      }
+    },
+    "reviewedOn": null,
+    "altGroup": "youth-training"
+  }
+]

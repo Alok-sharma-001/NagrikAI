@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/* Light, GIGW-style palette: government blue, action green, saffron only as decoration. */
+:root {
+  color-scheme: light;
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --surface-2: #eef2f7;
+  --ink: #1a2433;
+  --muted: #5b6778;
+  --line: #d8dee8;
+  --primary: #0b3d91;
+  --primary-ink: #ffffff;
+  --primary-soft: #e8effb;
+  --navy: #0f2340;
+  --saffron: #ff9933;
+  --india-green: #138808;
+  --accent: #b45309;
+  --accent-soft: #fff3e0;
+  --good: #13803b;
+  --good-soft: #e6f4ea;
+  --warn: #8a5a00;
+  --warn-soft: #fff6db;
+  --bad: #b42318;
+  --bad-soft: #fdecea;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-primary: var(--primary);
+  --color-primary-ink: var(--primary-ink);
+  --color-primary-soft: var(--primary-soft);
+  --color-navy: var(--navy);
+  --color-saffron: var(--saffron);
+  --color-india-green: var(--india-green);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --font-sans: var(--font-noto), var(--font-noto-deva), system-ui, sans-serif;
+  /* Government portals use restrained corners. */
+  --radius-xl: 0.5rem;
+  --radius-2xl: 0.625rem;
+  --radius-3xl: 0.75rem;
+}
+
+html { font-size: 16px; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+:focus-visible { outline: 3px solid var(--saffron); outline-offset: 2px; }
+
+/* Thin tricolour rule used under the header and section titles. */
+.tricolor { background: linear-gradient(90deg, var(--saffron) 0 33.3%, #fff 33.3% 66.6%, var(--india-green) 66.6%); }
+.section-title { position: relative; padding-bottom: 0.5rem; }
+.section-title::after {
+  content: ""; position: absolute; left: 0; bottom: 0; width: 3.5rem; height: 4px; border-radius: 2px; background: var(--saffron);
+}
+.section-title.center::after { left: 50%; transform: translateX(-50%); }
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--saffron) 60%, transparent); }
+  100% { box-shadow: 0 0 0 18px transparent; }
+}
+.mic-live { animation: pulse-ring 1.2s ease-out infinite; }
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; color: black; }
+}

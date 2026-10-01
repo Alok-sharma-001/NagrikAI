@@ -1,0 +1,10 @@
+# pitch deck (32 MB) — kept locally
+/bhopal.pptx
+/.claude/
+__pycache__/
+*.pyc
+.DS_Store
+
+# internal working notes and submission drafts — kept locally only
+/docs/
+/submission/

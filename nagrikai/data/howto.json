@@ -1,0 +1,377 @@
+[
+  {
+    "id": "samagra-ekyc",
+    "match": "(समग्र|samagra).{0,25}(e-?kyc|ई-?केवाईसी|केवाईसी|आधार (से )?(जोड़|लिंक)|aadhaar link)",
+    "title": {
+      "en": "Samagra e-KYC (link Aadhaar to Samagra)",
+      "hi": "समग्र e-KYC (समग्र से आधार जोड़ना)"
+    },
+    "steps": [
+      {
+        "en": "Open samagra.gov.in and choose 'e-KYC करें'.",
+        "hi": "samagra.gov.in खोलें और 'e-KYC करें' चुनें।"
+      },
+      {
+        "en": "Enter your 9-digit Samagra member ID and the captcha.",
+        "hi": "अपनी 9 अंकों की समग्र सदस्य ID और कैप्चा डालें।"
+      },
+      {
+        "en": "Enter your Aadhaar number and the OTP sent to your Aadhaar-linked mobile.",
+        "hi": "आधार नंबर और आधार से जुड़े मोबाइल पर आया OTP डालें।"
+      },
+      {
+        "en": "If name or date of birth differs, the request goes to the Panchayat / ward office for approval.",
+        "hi": "नाम या जन्मतिथि अलग होने पर अनुरोध पंचायत / वार्ड कार्यालय में स्वीकृति के लिए जाता है।"
+      },
+      {
+        "en": "No phone? Any MP Online / CSC kiosk can do it with your fingerprint.",
+        "hi": "मोबाइल नहीं है? MP Online / CSC कियोस्क पर अंगूठे के निशान से भी हो जाता है।"
+      }
+    ],
+    "url": "https://samagra.gov.in",
+    "helpline": null,
+    "reviewedOn": null
+  },
+  {
+    "id": "samagra-add-member",
+    "match": "(समग्र|samagra).{0,30}(सदस्य|नाम|member|name).{0,20}(जोड़|जुड़|add|jod|jud)|(समग्र|samagra).{0,30}(हटा|सुधार|correction|update)",
+    "title": {
+      "en": "Add or correct a member in Samagra",
+      "hi": "समग्र में सदस्य जोड़ना या सुधार करना"
+    },
+    "steps": [
+      {
+        "en": "Go to your Gram Panchayat (village) or ward / zone office (city) — they manage the family register.",
+        "hi": "ग्राम पंचायत (गाँव) या वार्ड / ज़ोन कार्यालय (शहर) जाएँ — परिवार रजिस्टर वही संभालते हैं।"
+      },
+      {
+        "en": "Take the family's Samagra ID and the new member's Aadhaar (for a newborn, the birth certificate).",
+        "hi": "परिवार की समग्र ID और नए सदस्य का आधार (नवजात के लिए जन्म प्रमाण पत्र) ले जाएँ।"
+      },
+      {
+        "en": "You can also raise the request on samagra.gov.in under 'सदस्य पंजीकृत करें'; it is approved by the local body.",
+        "hi": "samagra.gov.in पर 'सदस्य पंजीकृत करें' से भी अनुरोध कर सकते हैं; स्थानीय निकाय स्वीकृत करता है।"
+      }
+    ],
+    "url": "https://samagra.gov.in",
+    "helpline": null,
+    "reviewedOn": null
+  },
+  {
+    "id": "samagra-new",
+    "match": "(समग्र|samagra)",
+    "title": {
+      "en": "Get or find your Samagra ID",
+      "hi": "समग्र ID बनवाना या पता करना"
+    },
+    "steps": [
+      {
+        "en": "Already have one? On samagra.gov.in use 'समग्र ID जानें' with your mobile number or a family member's name.",
+        "hi": "पहले से है? samagra.gov.in पर 'समग्र ID जानें' में मोबाइल नंबर या परिवार के सदस्य के नाम से खोजें।"
+      },
+      {
+        "en": "New family: on samagra.gov.in choose 'परिवार को पंजीकृत करें' and enter the head's Aadhaar and mobile OTP.",
+        "hi": "नया परिवार: samagra.gov.in पर 'परिवार को पंजीकृत करें' चुनें और मुखिया का आधार व मोबाइल OTP डालें।"
+      },
+      {
+        "en": "Add each member with their Aadhaar. You get an 8-digit family ID and a 9-digit ID per member.",
+        "hi": "हर सदस्य को उनके आधार के साथ जोड़ें। आपको 8 अंकों की परिवार ID और हर सदस्य की 9 अंकों की ID मिलेगी।"
+      },
+      {
+        "en": "Or simply go to the Gram Panchayat / ward office with Aadhaar cards — it is free.",
+        "hi": "या आधार कार्ड लेकर ग्राम पंचायत / वार्ड कार्यालय जाएँ — यह निःशुल्क है।"
+      }
+    ],
+    "url": "https://samagra.gov.in",
+    "helpline": null,
+    "reviewedOn": null
+  },
+  {
+    "id": "ration-add-name",
+    "match": "(राशन|ration).{0,30}(नाम|name|naam|सदस्य|member|sadasya).{0,20}(जोड़|जुड़|add|jod|jud|चढ़)",
+    "title": {
+      "en": "Add a name to the ration card",
+      "hi": "राशन कार्ड में नाम जोड़ना"
+    },
+    "steps": [
+      {
+        "en": "In MP the ration list follows Samagra — first make sure the member is added to your Samagra family.",
+        "hi": "मध्यप्रदेश में राशन सूची समग्र से चलती है — पहले सदस्य को समग्र परिवार में जुड़वाएँ।"
+      },
+      {
+        "en": "Then apply at the Gram Panchayat / ward office or Lok Seva Kendra to include the member in the eligibility slip (पात्रता पर्ची).",
+        "hi": "फिर ग्राम पंचायत / वार्ड कार्यालय या लोक सेवा केंद्र में पात्रता पर्ची में नाम जोड़ने का आवेदन करें।"
+      },
+      {
+        "en": "Complete the member's e-KYC at the ration shop's POS machine with their fingerprint.",
+        "hi": "राशन दुकान की POS मशीन पर सदस्य का अंगूठा लगाकर e-KYC पूरी कराएँ।"
+      }
+    ],
+    "url": "https://rationmitra.nic.in",
+    "helpline": "1967",
+    "reviewedOn": null
+  },
+  {
+    "id": "ration-new",
+    "match": "(राशन कार्ड|ration card|पात्रता पर्ची|bpl कार्ड|बीपीएल कार्ड).{0,30}(बनवा|बनाए|बनेगा|नया|कैसे|kaise|new|apply|आवेदन|banwa|banva|banana|naya)|(बनवा|नया|new).{0,20}(राशन कार्ड|ration card)",
+    "title": {
+      "en": "Get a ration eligibility slip (ration card)",
+      "hi": "राशन पात्रता पर्ची (राशन कार्ड) बनवाना"
+    },
+    "steps": [
+      {
+        "en": "Apply at the Gram Panchayat / ward office or Lok Seva Kendra with the family's Samagra ID.",
+        "hi": "परिवार की समग्र ID के साथ ग्राम पंचायत / वार्ड कार्यालय या लोक सेवा केंद्र में आवेदन करें।"
+      },
+      {
+        "en": "Attach proof of the category you belong to (BPL, Antyodaya, labourer card, SC/ST etc.).",
+        "hi": "जिस श्रेणी में आते हैं उसका प्रमाण लगाएँ (BPL, अंत्योदय, श्रमिक कार्ड, SC/ST आदि)।"
+      },
+      {
+        "en": "After approval your name appears on the eligibility slip; collect ration with fingerprint at the fair-price shop.",
+        "hi": "स्वीकृति के बाद नाम पात्रता पर्ची में आ जाता है; उचित मूल्य दुकान पर अंगूठा लगाकर राशन लें।"
+      }
+    ],
+    "url": "https://rationmitra.nic.in",
+    "helpline": "1967",
+    "reviewedOn": null
+  },
+  {
+    "id": "income-cert",
+    "match": "(आय प्रमाण|income certificate|aay praman)",
+    "title": {
+      "en": "Income certificate",
+      "hi": "आय प्रमाण पत्र"
+    },
+    "steps": [
+      {
+        "en": "Apply at a Lok Seva Kendra, MP Online / CSC kiosk, or on the MP e-District portal.",
+        "hi": "लोक सेवा केंद्र, MP Online / CSC कियोस्क या MP ई-डिस्ट्रिक्ट पोर्टल पर आवेदन करें।"
+      },
+      {
+        "en": "Carry Samagra ID, Aadhaar and a self-declaration of income.",
+        "hi": "समग्र ID, आधार और आय का स्व-घोषणा पत्र ले जाएँ।"
+      },
+      {
+        "en": "It is issued by the Tehsildar within the Lok Seva Guarantee time limit; download it from the same portal.",
+        "hi": "यह तहसीलदार द्वारा लोक सेवा गारंटी की समय सीमा में जारी होता है; उसी पोर्टल से डाउनलोड करें।"
+      }
+    ],
+    "url": "https://mpedistrict.gov.in",
+    "helpline": null,
+    "reviewedOn": null
+  },
+  {
+    "id": "caste-cert",
+    "match": "(जाति प्रमाण|caste certificate|jati praman)",
+    "title": {
+      "en": "Caste certificate (SC / ST / OBC)",
+      "hi": "जाति प्रमाण पत्र (SC / ST / OBC)"
+    },
+    "steps": [
+      {
+        "en": "Apply at a Lok Seva Kendra or MP Online kiosk, or on the MP e-District portal.",
+        "hi": "लोक सेवा केंद्र या MP Online कियोस्क, या MP ई-डिस्ट्रिक्ट पोर्टल पर आवेदन करें।"
+      },
+      {
+        "en": "Carry Samagra ID, Aadhaar, and proof of caste and residence (e.g. father's certificate, land or school records).",
+        "hi": "समग्र ID, आधार, और जाति व निवास का प्रमाण (जैसे पिता का प्रमाण पत्र, ज़मीन या स्कूल के कागज़) ले जाएँ।"
+      },
+      {
+        "en": "It is issued by the SDM; the digital certificate is valid everywhere.",
+        "hi": "यह SDM द्वारा जारी होता है; डिजिटल प्रमाण पत्र हर जगह मान्य है।"
+      }
+    ],
+    "url": "https://mpedistrict.gov.in",
+    "helpline": null,
+    "reviewedOn": null
+  },
+  {
+    "id": "domicile-cert",
+    "match": "(मूल निवास|निवास प्रमाण|domicile|residence certificate)",
+    "title": {
+      "en": "Domicile (local resident) certificate",
+      "hi": "मूल निवासी प्रमाण पत्र"
+    },
+    "steps": [
+      {
+        "en": "Apply at a Lok Seva Kendra, MP Online kiosk or the MP e-District portal.",
+        "hi": "लोक सेवा केंद्र, MP Online कियोस्क या MP ई-डिस्ट्रिक्ट पोर्टल पर आवेदन करें।"
+      },
+      {
+        "en": "Carry Samagra ID, Aadhaar and proof of living in MP (school records, voter ID, electricity bill).",
+        "hi": "समग्र ID, आधार और मध्यप्रदेश में रहने का प्रमाण (स्कूल के कागज़, वोटर ID, बिजली बिल) ले जाएँ।"
+      }
+    ],
+    "url": "https://mpedistrict.gov.in",
+    "helpline": null,
+    "reviewedOn": null
+  },
+  {
+    "id": "bank-seeding",
+    "match": "(आधार|aadhaar).{0,25}(बैंक|खाते|खाता|bank).{0,20}(जोड़|जुड़|लिंक|link|सीड|seed)|(बैंक|खाता|bank).{0,25}(आधार|aadhaar).{0,20}(जोड़|जुड़|लिंक|link|seed)|\\bdbt\\b|डीबीटी",
+    "title": {
+      "en": "Link Aadhaar to your bank account (DBT)",
+      "hi": "बैंक खाते से आधार जोड़ना (DBT चालू करना)"
+    },
+    "steps": [
+      {
+        "en": "Government money comes to the account that is Aadhaar-seeded and DBT-enabled.",
+        "hi": "सरकारी पैसा उसी खाते में आता है जो आधार से जुड़ा और DBT-सक्रिय हो।"
+      },
+      {
+        "en": "Go to your bank branch with Aadhaar and passbook and fill the Aadhaar seeding / DBT consent form.",
+        "hi": "आधार और पासबुक लेकर बैंक शाखा जाएँ और आधार सीडिंग / DBT सहमति फ़ॉर्म भरें।"
+      },
+      {
+        "en": "Check the status on myaadhaar.uidai.gov.in under 'Bank Seeding Status'.",
+        "hi": "स्थिति myaadhaar.uidai.gov.in पर 'Bank Seeding Status' में देखें।"
+      }
+    ],
+    "url": "https://myaadhaar.uidai.gov.in",
+    "helpline": "1947",
+    "reviewedOn": null
+  },
+  {
+    "id": "aadhaar-update",
+    "match": "(आधार|aadhaar).{0,30}(मोबाइल|mobile|नाम|name|पता|address|जन्म|update|अपडेट|सुधार|बदल)",
+    "title": {
+      "en": "Update Aadhaar (mobile, name, address)",
+      "hi": "आधार अपडेट (मोबाइल, नाम, पता)"
+    },
+    "steps": [
+      {
+        "en": "Address can be updated online on myaadhaar.uidai.gov.in.",
+        "hi": "पता myaadhaar.uidai.gov.in पर ऑनलाइन अपडेट हो सकता है।"
+      },
+      {
+        "en": "Mobile number, name, date of birth and fingerprints are updated only at an Aadhaar Seva Kendra / enrolment centre (bank or post office).",
+        "hi": "मोबाइल नंबर, नाम, जन्मतिथि और अंगूठे के निशान केवल आधार सेवा केंद्र / नामांकन केंद्र (बैंक या डाकघर) पर अपडेट होते हैं।"
+      }
+    ],
+    "url": "https://myaadhaar.uidai.gov.in",
+    "helpline": "1947",
+    "reviewedOn": null
+  },
+  {
+    "id": "ayushman-card",
+    "match": "(आयुष्मान|ayushman).{0,30}(कार्ड|card).{0,30}(बनवा|बनाए|बनेगा|कैसे|kaise|download|डाउनलोड|make|get)",
+    "title": {
+      "en": "Get an Ayushman card",
+      "hi": "आयुष्मान कार्ड बनवाना"
+    },
+    "steps": [
+      {
+        "en": "Check your name on beneficiary.nha.gov.in or the Ayushman app using Aadhaar or Samagra family ID.",
+        "hi": "beneficiary.nha.gov.in या आयुष्मान ऐप पर आधार या समग्र परिवार ID से अपना नाम देखें।"
+      },
+      {
+        "en": "Do Aadhaar e-KYC (OTP or fingerprint) and download the card.",
+        "hi": "आधार e-KYC (OTP या अंगूठा) करके कार्ड डाउनलोड करें।"
+      },
+      {
+        "en": "Or get it made free at a CSC, Lok Seva Kendra or the Ayushman desk of any empanelled hospital.",
+        "hi": "या CSC, लोक सेवा केंद्र या किसी सूचीबद्ध अस्पताल की आयुष्मान डेस्क पर निःशुल्क बनवाएँ।"
+      }
+    ],
+    "url": "https://beneficiary.nha.gov.in",
+    "helpline": "14555",
+    "reviewedOn": null
+  },
+  {
+    "id": "disability-cert",
+    "match": "(दिव्यांग|विकलांग|disab|udid).{0,30}(प्रमाण|certificate|कार्ड|card)",
+    "title": {
+      "en": "Disability certificate / UDID card",
+      "hi": "दिव्यांगता प्रमाण पत्र / UDID कार्ड"
+    },
+    "steps": [
+      {
+        "en": "Apply on swavlambancard.gov.in with Aadhaar and photo.",
+        "hi": "आधार और फोटो के साथ swavlambancard.gov.in पर आवेदन करें।"
+      },
+      {
+        "en": "Attend the medical board at the district hospital on the given date for assessment.",
+        "hi": "दी गई तारीख़ पर ज़िला अस्पताल के मेडिकल बोर्ड में जाँच के लिए जाएँ।"
+      },
+      {
+        "en": "The certificate with disability % and the UDID card are issued; they are valid across India.",
+        "hi": "दिव्यांगता % वाला प्रमाण पत्र और UDID कार्ड जारी होता है; यह पूरे भारत में मान्य है।"
+      }
+    ],
+    "url": "https://www.swavlambancard.gov.in",
+    "helpline": null,
+    "reviewedOn": null
+  },
+  {
+    "id": "birth-death-cert",
+    "match": "(जन्म प्रमाण|मृत्यु प्रमाण|birth certificate|death certificate)",
+    "title": {
+      "en": "Birth / death certificate",
+      "hi": "जन्म / मृत्यु प्रमाण पत्र"
+    },
+    "steps": [
+      {
+        "en": "Register within 21 days at the hospital, Gram Panchayat or municipal office — it is free in that period.",
+        "hi": "21 दिन के भीतर अस्पताल, ग्राम पंचायत या नगर निगम में पंजीयन कराएँ — इस अवधि में निःशुल्क है।"
+      },
+      {
+        "en": "Later registration needs an affidavit and an order from the registrar / SDM.",
+        "hi": "देर से पंजीयन के लिए शपथ पत्र और रजिस्ट्रार / SDM का आदेश चाहिए।"
+      }
+    ],
+    "url": "https://dc.crsorgi.gov.in",
+    "helpline": null,
+    "reviewedOn": null
+  },
+  {
+    "id": "bank-account",
+    "match": "(बैंक खाता|bank account|जन धन|jan dhan).{0,25}(खोल|खुल|open|बनवा|कैसे|kaise)",
+    "title": {
+      "en": "Open a bank account",
+      "hi": "बैंक खाता खोलना"
+    },
+    "steps": [
+      {
+        "en": "Go to any bank branch or Bank Mitra with Aadhaar and a photo.",
+        "hi": "आधार और फोटो लेकर किसी भी बैंक शाखा या बैंक मित्र के पास जाएँ।"
+      },
+      {
+        "en": "Ask for a Jan Dhan account — zero balance, with a RuPay card.",
+        "hi": "जन धन खाता माँगें — ज़ीरो बैलेंस, RuPay कार्ड के साथ।"
+      },
+      {
+        "en": "Ask the bank to link Aadhaar and enable DBT in the same visit.",
+        "hi": "उसी समय बैंक से आधार जोड़ने और DBT चालू करने को कहें।"
+      }
+    ],
+    "url": "https://pmjdy.gov.in",
+    "helpline": "1800-11-0001",
+    "reviewedOn": null
+  },
+  {
+    "id": "complaint",
+    "match": "(शिकायत|complaint|grievance|सुनवाई|रिश्वत|bribe|घूस|पैसे माँग)",
+    "title": {
+      "en": "File a complaint (CM Helpline 181)",
+      "hi": "शिकायत दर्ज करना (CM हेल्पलाइन 181)"
+    },
+    "steps": [
+      {
+        "en": "Call 181 (free) and describe the problem; note the complaint number.",
+        "hi": "181 (निःशुल्क) पर कॉल करें और समस्या बताएँ; शिकायत नंबर नोट करें।"
+      },
+      {
+        "en": "Or file it on cmhelpline.mp.gov.in or the CM Helpline app and track the status there.",
+        "hi": "या cmhelpline.mp.gov.in अथवा CM हेल्पलाइन ऐप पर दर्ज करें और वहीं स्थिति देखें।"
+      },
+      {
+        "en": "If someone asks for money to apply for a scheme, report it — applying is free.",
+        "hi": "अगर कोई योजना के आवेदन के लिए पैसे माँगे तो शिकायत करें — आवेदन निःशुल्क है।"
+      }
+    ],
+    "url": "https://cmhelpline.mp.gov.in",
+    "helpline": "181",
+    "reviewedOn": null
+  }
+]

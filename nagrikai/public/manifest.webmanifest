@@ -1,0 +1,11 @@
+{
+  "name": "NagrikAI — नागरिक AI",
+  "short_name": "NagrikAI",
+  "description": "Find the government schemes you qualify for — by voice, in Hindi or English.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#0b3d91",
+  "lang": "hi",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

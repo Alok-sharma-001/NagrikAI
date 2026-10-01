@@ -1,0 +1,170 @@
+{
+  "_note": "FICTIONAL demo data standing in for the MP Samagra registry. No real person or ID. Replace lib/server/samagra.ts with the real API once access is granted.",
+  "families": [
+    {
+      "familyId": "31245678",
+      "district": "Bhopal",
+      "area": "urban",
+      "category": "obc",
+      "isMinority": false,
+      "isBPL": true,
+      "members": [
+        {
+          "memberId": "312456781",
+          "name": "सुनीता बाई",
+          "gender": "female",
+          "dob": "1991-03-14",
+          "relation": "self",
+          "maritalStatus": "widowed",
+          "mobile": "9826011234"
+        },
+        {
+          "memberId": "312456782",
+          "name": "पूजा",
+          "gender": "female",
+          "dob": "2011-07-02",
+          "relation": "daughter",
+          "mobile": null
+        },
+        {
+          "memberId": "312456783",
+          "name": "राहुल",
+          "gender": "male",
+          "dob": "2017-11-20",
+          "relation": "son",
+          "mobile": null
+        }
+      ]
+    },
+    {
+      "familyId": "42876501",
+      "district": "Sehore",
+      "area": "rural",
+      "category": "general",
+      "isMinority": false,
+      "isBPL": false,
+      "members": [
+        {
+          "memberId": "428765011",
+          "name": "रमेश पटेल",
+          "gender": "male",
+          "dob": "1974-01-09",
+          "relation": "self",
+          "maritalStatus": "married",
+          "mobile": "9893022345"
+        },
+        {
+          "memberId": "428765012",
+          "name": "सुमित्रा पटेल",
+          "gender": "female",
+          "dob": "1978-06-21",
+          "relation": "spouse",
+          "maritalStatus": "married",
+          "mobile": "9893022346"
+        },
+        {
+          "memberId": "428765013",
+          "name": "अनिल पटेल",
+          "gender": "male",
+          "dob": "2002-09-30",
+          "relation": "son",
+          "maritalStatus": "single",
+          "mobile": "7000033456"
+        },
+        {
+          "memberId": "428765014",
+          "name": "कविता पटेल",
+          "gender": "female",
+          "dob": "2007-02-11",
+          "relation": "daughter",
+          "maritalStatus": "single",
+          "mobile": null
+        },
+        {
+          "memberId": "428765015",
+          "name": "शांति बाई",
+          "gender": "female",
+          "dob": "1952-08-15",
+          "relation": "mother",
+          "maritalStatus": "widowed",
+          "mobile": null
+        }
+      ]
+    },
+    {
+      "familyId": "50917342",
+      "district": "Dindori",
+      "area": "rural",
+      "category": "st",
+      "isPVTG": true,
+      "isMinority": false,
+      "isBPL": true,
+      "members": [
+        {
+          "memberId": "509173421",
+          "name": "मंगल सिंह बैगा",
+          "gender": "male",
+          "dob": "1986-05-05",
+          "relation": "self",
+          "maritalStatus": "married",
+          "mobile": "9424044567"
+        },
+        {
+          "memberId": "509173422",
+          "name": "फूलवती बैगा",
+          "gender": "female",
+          "dob": "1990-10-18",
+          "relation": "spouse",
+          "maritalStatus": "married",
+          "mobile": null
+        },
+        {
+          "memberId": "509173423",
+          "name": "सोनू",
+          "gender": "male",
+          "dob": "2014-04-01",
+          "relation": "son",
+          "mobile": null
+        },
+        {
+          "memberId": "509173424",
+          "name": "गुड़िया",
+          "gender": "female",
+          "dob": "2022-12-25",
+          "relation": "daughter",
+          "mobile": null
+        }
+      ]
+    },
+    {
+      "familyId": "27654019",
+      "district": "Gwalior",
+      "area": "urban",
+      "category": "general",
+      "isMinority": true,
+      "isBPL": true,
+      "members": [
+        {
+          "memberId": "276540191",
+          "name": "अहमद खान",
+          "gender": "male",
+          "dob": "1964-02-27",
+          "relation": "self",
+          "maritalStatus": "married",
+          "isDisabled": true,
+          "disabilityPercent": 50,
+          "mobile": "9753055678"
+        },
+        {
+          "memberId": "276540192",
+          "name": "रुखसाना बी",
+          "gender": "female",
+          "dob": "1968-09-09",
+          "relation": "spouse",
+          "maritalStatus": "married",
+          "mobile": null
+        }
+      ]
+    }
+  ]
+}

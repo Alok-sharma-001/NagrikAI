@@ -1,0 +1,310 @@
+[
+  {
+    "id": "samagra_id",
+    "name": {
+      "en": "Samagra ID (family and member)",
+      "hi": "समग्र ID (परिवार और सदस्य)"
+    },
+    "where": {
+      "en": "Gram Panchayat / ward office, or samagra.gov.in",
+      "hi": "ग्राम पंचायत / वार्ड कार्यालय, या samagra.gov.in"
+    }
+  },
+  {
+    "id": "aadhaar",
+    "name": {
+      "en": "Aadhaar card",
+      "hi": "आधार कार्ड"
+    },
+    "where": {
+      "en": "Nearest Aadhaar Seva Kendra / bank / post office",
+      "hi": "नज़दीकी आधार सेवा केंद्र / बैंक / डाकघर"
+    }
+  },
+  {
+    "id": "bank_passbook",
+    "name": {
+      "en": "Bank passbook (Aadhaar-linked account)",
+      "hi": "बैंक पासबुक (आधार से जुड़ा खाता)"
+    },
+    "where": {
+      "en": "Your bank branch",
+      "hi": "आपकी बैंक शाखा"
+    }
+  },
+  {
+    "id": "mobile",
+    "name": {
+      "en": "Mobile number (linked to Aadhaar)",
+      "hi": "मोबाइल नंबर (आधार से जुड़ा)"
+    },
+    "where": {
+      "en": "Aadhaar Seva Kendra for linking",
+      "hi": "लिंक कराने के लिए आधार सेवा केंद्र"
+    }
+  },
+  {
+    "id": "photo",
+    "name": {
+      "en": "Passport-size photograph",
+      "hi": "पासपोर्ट साइज़ फोटो"
+    },
+    "where": {
+      "en": "Any photo studio",
+      "hi": "किसी भी फोटो स्टूडियो से"
+    }
+  },
+  {
+    "id": "income_cert",
+    "name": {
+      "en": "Income certificate",
+      "hi": "आय प्रमाण पत्र"
+    },
+    "where": {
+      "en": "Tehsil / SDM office or state e-District portal",
+      "hi": "तहसील / SDM कार्यालय या राज्य ई-डिस्ट्रिक्ट पोर्टल"
+    }
+  },
+  {
+    "id": "caste_cert",
+    "name": {
+      "en": "Caste certificate (SC/ST/OBC)",
+      "hi": "जाति प्रमाण पत्र (SC/ST/OBC)"
+    },
+    "where": {
+      "en": "Tehsil / SDM office or state e-District portal",
+      "hi": "तहसील / SDM कार्यालय या राज्य ई-डिस्ट्रिक्ट पोर्टल"
+    }
+  },
+  {
+    "id": "ration_card",
+    "name": {
+      "en": "Ration card (BPL / AAY / Priority Household)",
+      "hi": "राशन कार्ड (BPL / अंत्योदय / प्राथमिकता परिवार)"
+    },
+    "where": {
+      "en": "State Food & Civil Supplies department / ration office",
+      "hi": "राज्य खाद्य एवं नागरिक आपूर्ति विभाग / राशन कार्यालय"
+    }
+  },
+  {
+    "id": "disability_cert",
+    "name": {
+      "en": "Disability certificate / UDID card",
+      "hi": "दिव्यांगता प्रमाण पत्र / UDID कार्ड"
+    },
+    "where": {
+      "en": "District hospital medical board or swavlambancard.gov.in",
+      "hi": "ज़िला अस्पताल मेडिकल बोर्ड या swavlambancard.gov.in"
+    }
+  },
+  {
+    "id": "death_cert",
+    "name": {
+      "en": "Death certificate of spouse / breadwinner",
+      "hi": "पति/पत्नी या कमाने वाले सदस्य का मृत्यु प्रमाण पत्र"
+    },
+    "where": {
+      "en": "Municipal corporation / Gram Panchayat registrar",
+      "hi": "नगर निगम / ग्राम पंचायत रजिस्ट्रार"
+    }
+  },
+  {
+    "id": "age_proof",
+    "name": {
+      "en": "Age proof (birth certificate / school certificate / voter ID)",
+      "hi": "आयु प्रमाण (जन्म प्रमाण पत्र / स्कूल प्रमाण पत्र / वोटर आईडी)"
+    },
+    "where": {
+      "en": "Municipal registrar / school",
+      "hi": "नगर निगम रजिस्ट्रार / स्कूल"
+    }
+  },
+  {
+    "id": "birth_cert",
+    "name": {
+      "en": "Child's birth certificate",
+      "hi": "बच्चे का जन्म प्रमाण पत्र"
+    },
+    "where": {
+      "en": "Municipal corporation / Gram Panchayat registrar",
+      "hi": "नगर निगम / ग्राम पंचायत रजिस्ट्रार"
+    }
+  },
+  {
+    "id": "land_records",
+    "name": {
+      "en": "Land records (Khasra / Khatauni / RoR)",
+      "hi": "भूमि रिकॉर्ड (खसरा / खतौनी)"
+    },
+    "where": {
+      "en": "Patwari / Tehsil or state Bhulekh portal",
+      "hi": "पटवारी / तहसील या राज्य भूलेख पोर्टल"
+    }
+  },
+  {
+    "id": "domicile",
+    "name": {
+      "en": "Domicile / residence certificate",
+      "hi": "मूल निवास प्रमाण पत्र"
+    },
+    "where": {
+      "en": "Tehsil / SDM office",
+      "hi": "तहसील / SDM कार्यालय"
+    }
+  },
+  {
+    "id": "address_proof",
+    "name": {
+      "en": "Address proof (voter ID / electricity bill)",
+      "hi": "पते का प्रमाण (वोटर आईडी / बिजली बिल)"
+    },
+    "where": {
+      "en": "Already with you",
+      "hi": "आपके पास उपलब्ध"
+    }
+  },
+  {
+    "id": "marksheet",
+    "name": {
+      "en": "Previous class marksheet",
+      "hi": "पिछली कक्षा की मार्कशीट"
+    },
+    "where": {
+      "en": "School / college / board",
+      "hi": "स्कूल / कॉलेज / बोर्ड"
+    }
+  },
+  {
+    "id": "fee_receipt",
+    "name": {
+      "en": "Admission / fee receipt",
+      "hi": "प्रवेश / फीस रसीद"
+    },
+    "where": {
+      "en": "Your institution",
+      "hi": "आपका संस्थान"
+    }
+  },
+  {
+    "id": "bonafide",
+    "name": {
+      "en": "Bonafide student certificate",
+      "hi": "बोनाफाइड छात्र प्रमाण पत्र"
+    },
+    "where": {
+      "en": "Your institution",
+      "hi": "आपका संस्थान"
+    }
+  },
+  {
+    "id": "mcp_card",
+    "name": {
+      "en": "Mother & Child Protection (MCP) card",
+      "hi": "मातृ एवं शिशु सुरक्षा (MCP) कार्ड"
+    },
+    "where": {
+      "en": "Anganwadi centre / ANM / government health centre",
+      "hi": "आंगनवाड़ी केंद्र / ANM / सरकारी स्वास्थ्य केंद्र"
+    }
+  },
+  {
+    "id": "job_card",
+    "name": {
+      "en": "MGNREGA job card",
+      "hi": "मनरेगा जॉब कार्ड"
+    },
+    "where": {
+      "en": "Gram Panchayat",
+      "hi": "ग्राम पंचायत"
+    }
+  },
+  {
+    "id": "vendor_cert",
+    "name": {
+      "en": "Certificate of Vending / Letter of Recommendation",
+      "hi": "वेंडिंग प्रमाण पत्र / अनुशंसा पत्र"
+    },
+    "where": {
+      "en": "Urban Local Body (municipality)",
+      "hi": "नगर निकाय (नगरपालिका)"
+    }
+  },
+  {
+    "id": "business_plan",
+    "name": {
+      "en": "Project report / business plan",
+      "hi": "प्रोजेक्ट रिपोर्ट / व्यवसाय योजना"
+    },
+    "where": {
+      "en": "Prepare with help of bank / DIC / CSC",
+      "hi": "बैंक / ज़िला उद्योग केंद्र / CSC की मदद से बनाएं"
+    }
+  },
+  {
+    "id": "pan",
+    "name": {
+      "en": "PAN card",
+      "hi": "पैन कार्ड"
+    },
+    "where": {
+      "en": "NSDL / UTIITSL (online)",
+      "hi": "NSDL / UTIITSL (ऑनलाइन)"
+    }
+  },
+  {
+    "id": "self_declaration",
+    "name": {
+      "en": "Self-declaration form",
+      "hi": "स्व-घोषणा पत्र"
+    },
+    "where": {
+      "en": "Given at the application office / portal",
+      "hi": "आवेदन कार्यालय / पोर्टल पर उपलब्ध"
+    }
+  },
+  {
+    "id": "trade_proof",
+    "name": {
+      "en": "Proof of trade / occupation (e.g. Gram Panchayat verification)",
+      "hi": "व्यवसाय का प्रमाण (जैसे ग्राम पंचायत सत्यापन)"
+    },
+    "where": {
+      "en": "Gram Panchayat / Urban Local Body",
+      "hi": "ग्राम पंचायत / नगर निकाय"
+    }
+  },
+  {
+    "id": "sowing_cert",
+    "name": {
+      "en": "Sowing certificate / tenancy agreement",
+      "hi": "बुवाई प्रमाण पत्र / बटाई अनुबंध"
+    },
+    "where": {
+      "en": "Patwari / Gram Panchayat",
+      "hi": "पटवारी / ग्राम पंचायत"
+    }
+  },
+  {
+    "id": "electricity_bill",
+    "name": {
+      "en": "Latest electricity bill",
+      "hi": "नवीनतम बिजली बिल"
+    },
+    "where": {
+      "en": "Your DISCOM",
+      "hi": "आपकी बिजली कंपनी"
+    }
+  },
+  {
+    "id": "work_cert",
+    "name": {
+      "en": "90-day work certificate (employer / union)",
+      "hi": "90 दिन कार्य प्रमाण पत्र (नियोक्ता / यूनियन)"
+    },
+    "where": {
+      "en": "Employer, contractor or registered trade union",
+      "hi": "नियोक्ता, ठेकेदार या पंजीकृत यूनियन"
+    }
+  }
+]

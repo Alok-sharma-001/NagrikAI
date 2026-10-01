@@ -1,0 +1,1366 @@
+[
+  {
+    "id": "pmjay",
+    "level": "household",
+    "name": {
+      "en": "Ayushman Bharat – PM Jan Arogya Yojana (PM-JAY)",
+      "hi": "आयुष्मान भारत – प्रधानमंत्री जन आरोग्य योजना"
+    },
+    "ministry": "Ministry of Health & Family Welfare (National Health Authority)",
+    "category": "health",
+    "summary": {
+      "en": "Free cashless hospital treatment for poor and vulnerable families at empanelled hospitals.",
+      "hi": "गरीब और कमज़ोर परिवारों के लिए सूचीबद्ध अस्पतालों में मुफ़्त कैशलेस इलाज।"
+    },
+    "benefit": {
+      "en": "Health cover up to ₹5 lakh per family per year",
+      "hi": "प्रति परिवार प्रति वर्ष ₹5 लाख तक का स्वास्थ्य बीमा",
+      "cover": 500000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isBPL",
+          "op": "true",
+          "label": {
+            "en": "Poor / priority household (SECC list or BPL/AAY ration card)",
+            "hi": "गरीब / प्राथमिकता परिवार (SECC सूची या BPL/अंत्योदय राशन कार्ड)"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Family name must appear in the PM-JAY beneficiary list (check on the portal or at a CSC)",
+        "hi": "परिवार का नाम PM-JAY लाभार्थी सूची में होना चाहिए (पोर्टल या CSC पर जाँचें)"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "ration_card",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "Check your name on beneficiary.nha.gov.in or the Ayushman app, then get your Ayushman card made via e-KYC at a CSC or empanelled hospital.",
+      "hi": "beneficiary.nha.gov.in या आयुष्मान ऐप पर नाम जाँचें, फिर CSC या सूचीबद्ध अस्पताल में e-KYC से आयुष्मान कार्ड बनवाएं।"
+    },
+    "applyUrl": "https://beneficiary.nha.gov.in",
+    "sourceUrl": "https://pmjay.gov.in",
+    "helpline": "14555",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "No deadline — card can be made any time.",
+        "hi": "कोई अंतिम तिथि नहीं — कार्ड कभी भी बनवा सकते हैं।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmjay-vay-vandana",
+    "name": {
+      "en": "Ayushman Vay Vandana (PM-JAY for 70+)",
+      "hi": "आयुष्मान वय वंदना (70+ वरिष्ठ नागरिकों के लिए)"
+    },
+    "ministry": "Ministry of Health & Family Welfare (National Health Authority)",
+    "category": "health",
+    "summary": {
+      "en": "All senior citizens aged 70 and above get PM-JAY health cover regardless of income.",
+      "hi": "70 वर्ष और उससे अधिक आयु के सभी वरिष्ठ नागरिकों को आय की परवाह किए बिना PM-JAY स्वास्थ्य कवर।"
+    },
+    "benefit": {
+      "en": "Health cover up to ₹5 lakh per year (separate top-up if family is already covered)",
+      "hi": "प्रति वर्ष ₹5 लाख तक का स्वास्थ्य कवर (परिवार पहले से कवर हो तो अलग टॉप-अप)",
+      "cover": 500000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 70
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "Enrol with Aadhaar e-KYC on the Ayushman app or beneficiary.nha.gov.in, or at an empanelled hospital / CSC.",
+      "hi": "आयुष्मान ऐप या beneficiary.nha.gov.in पर आधार e-KYC से, या सूचीबद्ध अस्पताल / CSC पर नामांकन करें।"
+    },
+    "applyUrl": "https://beneficiary.nha.gov.in",
+    "sourceUrl": "https://pmjay.gov.in",
+    "helpline": "14555",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "No deadline.",
+        "hi": "कोई अंतिम तिथि नहीं।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "nfsa-pmgkay",
+    "level": "household",
+    "name": {
+      "en": "Free Ration under NFSA (PM Garib Kalyan Anna Yojana)",
+      "hi": "राष्ट्रीय खाद्य सुरक्षा – मुफ़्त राशन (प्रधानमंत्री गरीब कल्याण अन्न योजना)"
+    },
+    "ministry": "Ministry of Consumer Affairs, Food & Public Distribution",
+    "category": "food",
+    "summary": {
+      "en": "Free food grains every month for priority households and Antyodaya families through ration shops.",
+      "hi": "प्राथमिकता परिवारों और अंत्योदय परिवारों को राशन दुकान से हर महीने मुफ़्त अनाज।"
+    },
+    "benefit": {
+      "en": "5 kg free grain per person per month (35 kg per family for AAY) — about ₹6,000/year for a family of 4",
+      "hi": "प्रति व्यक्ति प्रति माह 5 किलो मुफ़्त अनाज (अंत्योदय परिवार को 35 किलो) — 4 सदस्यों के परिवार के लिए लगभग ₹6,000/वर्ष",
+      "cashPerYear": 6000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isBPL",
+          "op": "true",
+          "label": {
+            "en": "Priority household / Antyodaya (as per state criteria)",
+            "hi": "प्राथमिकता परिवार / अंत्योदय (राज्य के मानदंड अनुसार)"
+          }
+        }
+      ]
+    },
+    "documents": [
+      "ration_card",
+      "aadhaar"
+    ],
+    "howToApply": {
+      "en": "If you don't have a ration card, apply at your state Food & Civil Supplies portal or ration office. With 'One Nation One Ration Card' you can collect ration anywhere in India.",
+      "hi": "राशन कार्ड नहीं है तो राज्य खाद्य विभाग के पोर्टल या राशन कार्यालय में आवेदन करें। 'वन नेशन वन राशन कार्ड' से भारत में कहीं भी राशन ले सकते हैं।"
+    },
+    "applyUrl": "https://nfsa.gov.in",
+    "sourceUrl": "https://nfsa.gov.in",
+    "helpline": "1967",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Monthly entitlement — collect every month.",
+        "hi": "मासिक हक़ — हर महीने राशन लें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "nfbs",
+    "level": "household",
+    "name": {
+      "en": "National Family Benefit Scheme (NSAP)",
+      "hi": "राष्ट्रीय पारिवारिक लाभ योजना"
+    },
+    "ministry": "Ministry of Rural Development (NSAP)",
+    "category": "pension",
+    "summary": {
+      "en": "One-time help to a BPL family when its primary breadwinner (aged 18–59) dies.",
+      "hi": "BPL परिवार के मुख्य कमाने वाले सदस्य (18–59 वर्ष) की मृत्यु पर परिवार को एकमुश्त सहायता।"
+    },
+    "benefit": {
+      "en": "₹20,000 one-time",
+      "hi": "₹20,000 एकमुश्त",
+      "oneTime": 20000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "breadwinnerDiedRecently",
+          "op": "true"
+        },
+        {
+          "field": "isBPL",
+          "op": "true"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "The deceased breadwinner was aged 18–59",
+        "hi": "मृत कमाने वाले सदस्य की आयु 18–59 वर्ष थी"
+      }
+    ],
+    "documents": [
+      "death_cert",
+      "aadhaar",
+      "ration_card",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Apply soon after the death at the Gram Panchayat / municipal office / SDM office with the death certificate.",
+      "hi": "मृत्यु के बाद जल्द से जल्द मृत्यु प्रमाण पत्र के साथ ग्राम पंचायत / नगर निगम / SDM कार्यालय में आवेदन करें।"
+    },
+    "applyUrl": "https://nsap.nic.in",
+    "sourceUrl": "https://nsap.nic.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply as soon as possible after the death — many states set a time limit.",
+        "hi": "मृत्यु के बाद जितनी जल्दी हो सके आवेदन करें — कई राज्यों में समय सीमा है।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmjjby",
+    "name": {
+      "en": "PM Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "hi": "प्रधानमंत्री जीवन ज्योति बीमा योजना"
+    },
+    "ministry": "Ministry of Finance (Dept. of Financial Services)",
+    "category": "insurance",
+    "summary": {
+      "en": "Life insurance of ₹2 lakh for just ₹436 a year, auto-debited from your bank account.",
+      "hi": "सिर्फ़ ₹436 सालाना में ₹2 लाख का जीवन बीमा, बैंक खाते से ऑटो-डेबिट।"
+    },
+    "benefit": {
+      "en": "₹2 lakh life cover for ₹436/year premium",
+      "hi": "₹436/वर्ष प्रीमियम पर ₹2 लाख जीवन बीमा",
+      "cover": 200000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            50
+          ]
+        },
+        {
+          "field": "hasBankAccount",
+          "op": "true"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Fill the one-page form at your bank branch, or enrol via net banking / Jan Suraksha portal.",
+      "hi": "अपनी बैंक शाखा में एक पेज का फ़ॉर्म भरें, या नेट बैंकिंग / जन सुरक्षा पोर्टल से जुड़ें।"
+    },
+    "applyUrl": "https://jansuraksha.gov.in",
+    "sourceUrl": "https://jansuraksha.gov.in",
+    "helpline": "1800-180-1111",
+    "deadline": {
+      "type": "renewal",
+      "month": 5,
+      "day": 31,
+      "note": {
+        "en": "Cover runs 1 June–31 May; keep balance for auto-renewal by 31 May.",
+        "hi": "कवर 1 जून–31 मई तक; 31 मई तक ऑटो-रिन्यूअल के लिए खाते में बैलेंस रखें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmsby",
+    "name": {
+      "en": "PM Suraksha Bima Yojana (PMSBY)",
+      "hi": "प्रधानमंत्री सुरक्षा बीमा योजना"
+    },
+    "ministry": "Ministry of Finance (Dept. of Financial Services)",
+    "category": "insurance",
+    "summary": {
+      "en": "Accident insurance of ₹2 lakh for just ₹20 a year.",
+      "hi": "सिर्फ़ ₹20 सालाना में ₹2 लाख का दुर्घटना बीमा।"
+    },
+    "benefit": {
+      "en": "₹2 lakh accidental death / full disability, ₹1 lakh partial disability — ₹20/year",
+      "hi": "दुर्घटना मृत्यु / पूर्ण दिव्यांगता पर ₹2 लाख, आंशिक पर ₹1 लाख — ₹20/वर्ष",
+      "cover": 200000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            70
+          ]
+        },
+        {
+          "field": "hasBankAccount",
+          "op": "true"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Fill the form at your bank branch or enrol via net banking / Jan Suraksha portal.",
+      "hi": "बैंक शाखा में फ़ॉर्म भरें या नेट बैंकिंग / जन सुरक्षा पोर्टल से जुड़ें।"
+    },
+    "applyUrl": "https://jansuraksha.gov.in",
+    "sourceUrl": "https://jansuraksha.gov.in",
+    "helpline": "1800-180-1111",
+    "deadline": {
+      "type": "renewal",
+      "month": 5,
+      "day": 31,
+      "note": {
+        "en": "Cover runs 1 June–31 May; auto-renews by 31 May.",
+        "hi": "कवर 1 जून–31 मई तक; 31 मई तक ऑटो-रिन्यूअल।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "apy",
+    "name": {
+      "en": "Atal Pension Yojana (APY)",
+      "hi": "अटल पेंशन योजना"
+    },
+    "ministry": "Ministry of Finance (PFRDA)",
+    "category": "pension",
+    "summary": {
+      "en": "Small monthly savings now for a guaranteed pension after age 60.",
+      "hi": "अभी छोटी मासिक बचत, 60 वर्ष के बाद गारंटीड पेंशन।"
+    },
+    "benefit": {
+      "en": "Guaranteed pension of ₹1,000–₹5,000/month after 60 (based on contribution)",
+      "hi": "60 वर्ष के बाद ₹1,000–₹5,000/माह गारंटीड पेंशन (योगदान के अनुसार)"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            40
+          ]
+        },
+        {
+          "field": "hasBankAccount",
+          "op": "true"
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "bank_passbook",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "Register at your bank / post office or through net banking.",
+      "hi": "अपने बैंक / डाकघर या नेट बैंकिंग से पंजीकरण करें।"
+    },
+    "applyUrl": "https://www.pfrda.org.in",
+    "sourceUrl": "https://www.pfrda.org.in",
+    "helpline": "1800-110-069",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Must join before turning 40 — the earlier you join, the lower the monthly contribution.",
+        "hi": "40 वर्ष से पहले जुड़ना ज़रूरी — जितनी जल्दी जुड़ें, मासिक योगदान उतना कम।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pm-sym",
+    "name": {
+      "en": "PM Shram Yogi Maan-dhan (PM-SYM)",
+      "hi": "प्रधानमंत्री श्रम योगी मान-धन योजना"
+    },
+    "ministry": "Ministry of Labour & Employment",
+    "category": "pension",
+    "summary": {
+      "en": "Pension scheme for unorganised workers — the government matches your monthly contribution.",
+      "hi": "असंगठित कामगारों के लिए पेंशन योजना — आपका मासिक योगदान सरकार भी बराबर जमा करती है।"
+    },
+    "benefit": {
+      "en": "₹3,000/month pension after 60; you pay ₹55–₹200/month, government pays the same",
+      "hi": "60 के बाद ₹3,000/माह पेंशन; आप ₹55–₹200/माह जमा करें, सरकार उतना ही जमा करे"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "in",
+          "value": [
+            "agri_labourer",
+            "construction_worker",
+            "domestic_worker",
+            "street_vendor",
+            "artisan",
+            "fisherman",
+            "self_employed",
+            "other"
+          ],
+          "label": {
+            "en": "Unorganised sector worker",
+            "hi": "असंगठित क्षेत्र का कामगार"
+          }
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            40
+          ]
+        },
+        {
+          "field": "annualIncome",
+          "op": "lte",
+          "value": 180000,
+          "label": {
+            "en": "Monthly income ₹15,000 or less",
+            "hi": "मासिक आय ₹15,000 या कम"
+          }
+        },
+        {
+          "field": "isEpfoMember",
+          "op": "false"
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "bank_passbook",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "Enrol at the nearest Common Service Centre (CSC) or on maandhan.in with Aadhaar and a savings account.",
+      "hi": "आधार और बचत खाते के साथ नज़दीकी CSC या maandhan.in पर नामांकन करें।"
+    },
+    "applyUrl": "https://maandhan.in",
+    "sourceUrl": "https://maandhan.in",
+    "helpline": "1800-267-6888",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Must join before turning 40.",
+        "hi": "40 वर्ष से पहले जुड़ना ज़रूरी।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "eshram",
+    "name": {
+      "en": "e-Shram Registration (Unorganised Workers)",
+      "hi": "ई-श्रम पंजीकरण (असंगठित कामगार)"
+    },
+    "ministry": "Ministry of Labour & Employment",
+    "category": "employment",
+    "summary": {
+      "en": "Free national registration for unorganised workers — gives a UAN card and access to welfare schemes.",
+      "hi": "असंगठित कामगारों के लिए मुफ़्त राष्ट्रीय पंजीकरण — UAN कार्ड और कल्याण योजनाओं तक पहुँच।"
+    },
+    "benefit": {
+      "en": "e-Shram UAN card; accident insurance of ₹2 lakh (via PMSBY) and priority for welfare schemes",
+      "hi": "ई-श्रम UAN कार्ड; ₹2 लाख दुर्घटना बीमा (PMSBY से) और कल्याण योजनाओं में प्राथमिकता"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "in",
+          "value": [
+            "farmer",
+            "agri_labourer",
+            "construction_worker",
+            "domestic_worker",
+            "street_vendor",
+            "artisan",
+            "fisherman",
+            "self_employed",
+            "other"
+          ],
+          "label": {
+            "en": "Unorganised sector worker",
+            "hi": "असंगठित क्षेत्र का कामगार"
+          }
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            16,
+            59
+          ]
+        },
+        {
+          "field": "isEpfoMember",
+          "op": "false"
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "mobile",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Self-register on eshram.gov.in with Aadhaar-linked mobile OTP, or at any CSC — free of cost.",
+      "hi": "आधार से जुड़े मोबाइल OTP से eshram.gov.in पर खुद पंजीकरण करें, या किसी भी CSC पर — मुफ़्त।"
+    },
+    "applyUrl": "https://eshram.gov.in",
+    "sourceUrl": "https://eshram.gov.in",
+    "helpline": "14434",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Register any time; keep details updated.",
+        "hi": "कभी भी पंजीकरण करें; जानकारी अपडेट रखें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmjdy",
+    "name": {
+      "en": "PM Jan Dhan Yojana (Zero-balance bank account)",
+      "hi": "प्रधानमंत्री जन धन योजना (ज़ीरो बैलेंस खाता)"
+    },
+    "ministry": "Ministry of Finance (Dept. of Financial Services)",
+    "category": "financial_inclusion",
+    "summary": {
+      "en": "Free zero-balance bank account with RuPay card — needed to receive most government benefits directly.",
+      "hi": "RuPay कार्ड के साथ मुफ़्त ज़ीरो बैलेंस खाता — अधिकांश सरकारी लाभ सीधे खाते में पाने के लिए ज़रूरी।"
+    },
+    "benefit": {
+      "en": "Zero-balance account, RuPay card with ₹2 lakh accident cover, overdraft up to ₹10,000",
+      "hi": "ज़ीरो बैलेंस खाता, ₹2 लाख दुर्घटना बीमा वाला RuPay कार्ड, ₹10,000 तक ओवरड्राफ़्ट",
+      "cover": 200000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 10
+        },
+        {
+          "field": "hasBankAccount",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Visit any bank branch or Bank Mitra with Aadhaar.",
+      "hi": "आधार लेकर किसी भी बैंक शाखा या बैंक मित्र के पास जाएं।"
+    },
+    "applyUrl": "https://pmjdy.gov.in",
+    "sourceUrl": "https://pmjdy.gov.in",
+    "helpline": "1800-11-0001",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Open any time.",
+        "hi": "कभी भी खोलें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmay-g",
+    "level": "household",
+    "name": {
+      "en": "PM Awas Yojana – Gramin (PMAY-G)",
+      "hi": "प्रधानमंत्री आवास योजना – ग्रामीण"
+    },
+    "ministry": "Ministry of Rural Development",
+    "category": "housing",
+    "summary": {
+      "en": "Financial help to build a pucca house for rural families who are homeless or live in kutcha houses.",
+      "hi": "बेघर या कच्चे मकान में रहने वाले ग्रामीण परिवारों को पक्का घर बनाने के लिए आर्थिक सहायता।"
+    },
+    "benefit": {
+      "en": "₹1.20 lakh (plains) / ₹1.30 lakh (hilly & NE) + 90–95 days MGNREGA wages + toilet support",
+      "hi": "₹1.20 लाख (मैदानी) / ₹1.30 लाख (पहाड़ी व पूर्वोत्तर) + 90–95 दिन मनरेगा मज़दूरी + शौचालय सहायता",
+      "oneTime": 120000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "rural"
+        },
+        {
+          "field": "ownsPuccaHouse",
+          "op": "false"
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Household identified in the Awaas+ survey / SECC list and approved by the Gram Sabha",
+        "hi": "परिवार का नाम आवास+ सर्वे / SECC सूची में हो और ग्राम सभा से स्वीकृत हो"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "bank_passbook",
+      "job_card",
+      "self_declaration"
+    ],
+    "howToApply": {
+      "en": "Contact your Gram Panchayat / Block office to be included in the Awaas+ survey list.",
+      "hi": "आवास+ सर्वे सूची में नाम जुड़वाने के लिए ग्राम पंचायत / ब्लॉक कार्यालय से संपर्क करें।"
+    },
+    "applyUrl": "https://pmayg.nic.in",
+    "sourceUrl": "https://pmayg.nic.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Selection through periodic surveys — ask your Panchayat about the current survey.",
+        "hi": "चयन समय-समय पर सर्वे से — वर्तमान सर्वे के बारे में पंचायत से पूछें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmay-u",
+    "level": "household",
+    "name": {
+      "en": "PM Awas Yojana – Urban 2.0 (PMAY-U)",
+      "hi": "प्रधानमंत्री आवास योजना – शहरी 2.0"
+    },
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "category": "housing",
+    "summary": {
+      "en": "Help for urban EWS/LIG/MIG families without a pucca house to build or buy a home.",
+      "hi": "पक्के मकान के बिना शहरी EWS/LIG/MIG परिवारों को घर बनाने या खरीदने में सहायता।"
+    },
+    "benefit": {
+      "en": "Up to ₹2.5 lakh assistance for house construction / affordable housing, or interest subsidy on home loan",
+      "hi": "घर निर्माण / किफ़ायती आवास के लिए ₹2.5 लाख तक सहायता, या होम लोन पर ब्याज सब्सिडी",
+      "oneTime": 250000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "urban"
+        },
+        {
+          "field": "ownsPuccaHouse",
+          "op": "false",
+          "label": {
+            "en": "No pucca house anywhere in India",
+            "hi": "भारत में कहीं भी पक्का मकान नहीं"
+          }
+        },
+        {
+          "field": "annualIncome",
+          "op": "lte",
+          "value": 900000,
+          "label": {
+            "en": "Annual household income up to ₹9 lakh (EWS/LIG/MIG)",
+            "hi": "वार्षिक पारिवारिक आय ₹9 लाख तक (EWS/LIG/MIG)"
+          }
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "income_cert",
+      "bank_passbook",
+      "self_declaration",
+      "address_proof"
+    ],
+    "howToApply": {
+      "en": "Apply online on pmay-urban.gov.in or through your Urban Local Body / CSC.",
+      "hi": "pmay-urban.gov.in पर ऑनलाइन या नगर निकाय / CSC के माध्यम से आवेदन करें।"
+    },
+    "applyUrl": "https://pmay-urban.gov.in",
+    "sourceUrl": "https://pmay-urban.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Open under PMAY-U 2.0 (2024–2029).",
+        "hi": "PMAY-U 2.0 (2024–2029) के तहत खुला।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmuy",
+    "level": "household",
+    "name": {
+      "en": "PM Ujjwala Yojana (Free LPG connection)",
+      "hi": "प्रधानमंत्री उज्ज्वला योजना (मुफ़्त LPG कनेक्शन)"
+    },
+    "ministry": "Ministry of Petroleum & Natural Gas",
+    "category": "energy",
+    "summary": {
+      "en": "Deposit-free LPG connection for women from poor households, plus subsidy on refills.",
+      "hi": "गरीब परिवारों की महिलाओं को बिना जमा राशि के LPG कनेक्शन, और रिफ़िल पर सब्सिडी।"
+    },
+    "benefit": {
+      "en": "Free connection (first refill & stove free) + ₹300 subsidy per cylinder for up to 12 refills/year",
+      "hi": "मुफ़्त कनेक्शन (पहला रिफ़िल और चूल्हा मुफ़्त) + साल में 12 सिलेंडर तक ₹300 प्रति सिलेंडर सब्सिडी",
+      "cashPerYear": 3600
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female",
+          "label": {
+            "en": "Applicant is a woman",
+            "hi": "आवेदक महिला हो"
+          }
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        },
+        {
+          "field": "hasLpgConnection",
+          "op": "false",
+          "label": {
+            "en": "No LPG connection in the household",
+            "hi": "घर में कोई LPG कनेक्शन नहीं"
+          }
+        },
+        {
+          "any": [
+            {
+              "field": "isBPL",
+              "op": "true"
+            },
+            {
+              "field": "category",
+              "op": "in",
+              "value": [
+                "sc",
+                "st"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "ration_card",
+      "bank_passbook",
+      "self_declaration",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply at the nearest LPG distributor or online on pmuy.gov.in.",
+      "hi": "नज़दीकी LPG वितरक पर या pmuy.gov.in पर ऑनलाइन आवेदन करें।"
+    },
+    "applyUrl": "https://pmuy.gov.in",
+    "sourceUrl": "https://pmuy.gov.in",
+    "helpline": "1800-266-6696",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pm-surya-ghar",
+    "level": "household",
+    "name": {
+      "en": "PM Surya Ghar Muft Bijli Yojana (Rooftop solar)",
+      "hi": "पीएम सूर्य घर मुफ़्त बिजली योजना (छत पर सोलर)"
+    },
+    "ministry": "Ministry of New & Renewable Energy",
+    "category": "energy",
+    "summary": {
+      "en": "Subsidy for rooftop solar panels so households can get up to 300 units of free electricity a month.",
+      "hi": "छत पर सोलर पैनल के लिए सब्सिडी, जिससे घरों को हर महीने 300 यूनिट तक मुफ़्त बिजली मिल सके।"
+    },
+    "benefit": {
+      "en": "Subsidy up to ₹78,000 (₹30,000/kW for first 2 kW, ₹18,000 for 3rd kW)",
+      "hi": "₹78,000 तक सब्सिडी (पहले 2 kW के लिए ₹30,000/kW, तीसरे kW के लिए ₹18,000)",
+      "oneTime": 78000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "ownsPuccaHouse",
+          "op": "true",
+          "label": {
+            "en": "Owns a house with a suitable roof",
+            "hi": "उपयुक्त छत वाला अपना मकान"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Valid electricity connection in your name; no other solar subsidy availed",
+        "hi": "आपके नाम पर वैध बिजली कनेक्शन; कोई अन्य सोलर सब्सिडी न ली हो"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "electricity_bill",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Register on pmsuryaghar.gov.in, choose a registered vendor, install, and the subsidy is paid to your bank account.",
+      "hi": "pmsuryaghar.gov.in पर पंजीकरण करें, पंजीकृत वेंडर चुनें, इंस्टॉल कराएं — सब्सिडी बैंक खाते में आएगी।"
+    },
+    "applyUrl": "https://pmsuryaghar.gov.in",
+    "sourceUrl": "https://pmsuryaghar.gov.in",
+    "helpline": "15555",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "sbm-g-ihhl",
+    "level": "household",
+    "name": {
+      "en": "Swachh Bharat Mission (Gramin) – Household Toilet",
+      "hi": "स्वच्छ भारत मिशन (ग्रामीण) – घरेलू शौचालय"
+    },
+    "ministry": "Ministry of Jal Shakti (Dept. of Drinking Water & Sanitation)",
+    "category": "sanitation",
+    "summary": {
+      "en": "Incentive to build a toilet for rural households that don't have one.",
+      "hi": "जिन ग्रामीण घरों में शौचालय नहीं है, उन्हें शौचालय बनाने के लिए प्रोत्साहन राशि।"
+    },
+    "benefit": {
+      "en": "₹12,000 incentive for building a household toilet",
+      "hi": "घरेलू शौचालय बनाने के लिए ₹12,000 प्रोत्साहन",
+      "oneTime": 12000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "rural"
+        },
+        {
+          "field": "hasToilet",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply through the Gram Panchayat or the SBM-G portal.",
+      "hi": "ग्राम पंचायत या SBM-G पोर्टल के माध्यम से आवेदन करें।"
+    },
+    "applyUrl": "https://swachhbharatmission.ddws.gov.in",
+    "sourceUrl": "https://swachhbharatmission.ddws.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "ssy",
+    "level": "household",
+    "name": {
+      "en": "Sukanya Samriddhi Yojana",
+      "hi": "सुकन्या समृद्धि योजना"
+    },
+    "ministry": "Ministry of Finance",
+    "category": "women_child",
+    "summary": {
+      "en": "High-interest, tax-free savings account for a girl child under 10.",
+      "hi": "10 वर्ष से कम उम्र की बेटी के लिए ऊँचे ब्याज वाला, कर-मुक्त बचत खाता।"
+    },
+    "benefit": {
+      "en": "Among the highest small-savings interest rates, tax-free; deposit ₹250 to ₹1.5 lakh a year",
+      "hi": "छोटी बचत योजनाओं में सबसे ऊँची ब्याज दरों में से एक, कर-मुक्त; सालाना ₹250 से ₹1.5 लाख जमा"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "hasGirlChildUnder10",
+          "op": "true"
+        }
+      ]
+    },
+    "documents": [
+      "birth_cert",
+      "aadhaar",
+      "address_proof",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Open the account at any post office or authorised bank.",
+      "hi": "किसी भी डाकघर या अधिकृत बैंक में खाता खोलें।"
+    },
+    "applyUrl": "https://www.indiapost.gov.in",
+    "sourceUrl": "https://www.nsiindia.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Open before the girl turns 10; deposit at least ₹250 every financial year.",
+        "hi": "बेटी के 10 वर्ष की होने से पहले खोलें; हर वित्त वर्ष कम से कम ₹250 जमा करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pmmvy",
+    "name": {
+      "en": "PM Matru Vandana Yojana (PMMVY)",
+      "hi": "प्रधानमंत्री मातृ वंदना योजना"
+    },
+    "ministry": "Ministry of Women & Child Development",
+    "category": "women_child",
+    "summary": {
+      "en": "Cash support to pregnant and lactating women for wage loss and nutrition.",
+      "hi": "गर्भवती और स्तनपान कराने वाली महिलाओं को मज़दूरी के नुकसान और पोषण के लिए नकद सहायता।"
+    },
+    "benefit": {
+      "en": "₹5,000 for the first child; ₹6,000 for a second child if it is a girl",
+      "hi": "पहले बच्चे पर ₹5,000; दूसरी संतान बेटी होने पर ₹6,000",
+      "oneTime": 5000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "isPregnantOrLactating",
+          "op": "true"
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        },
+        {
+          "any": [
+            {
+              "field": "annualIncome",
+              "op": "lt",
+              "value": 800000
+            },
+            {
+              "field": "isBPL",
+              "op": "true"
+            },
+            {
+              "field": "category",
+              "op": "in",
+              "value": [
+                "sc",
+                "st"
+              ]
+            },
+            {
+              "field": "isDisabled",
+              "op": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "mcp_card",
+      "bank_passbook",
+      "income_cert"
+    ],
+    "howToApply": {
+      "en": "Register through your Anganwadi worker / ASHA or on pmmvy.wcd.gov.in.",
+      "hi": "आंगनवाड़ी कार्यकर्ता / आशा के माध्यम से या pmmvy.wcd.gov.in पर पंजीकरण करें।"
+    },
+    "applyUrl": "https://pmmvy.wcd.gov.in",
+    "sourceUrl": "https://wcd.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Register early in pregnancy; claims have time limits after childbirth.",
+        "hi": "गर्भावस्था की शुरुआत में पंजीकरण करें; प्रसव के बाद दावे की समय सीमा होती है।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "jsy",
+    "name": {
+      "en": "Janani Suraksha Yojana (JSY)",
+      "hi": "जननी सुरक्षा योजना"
+    },
+    "ministry": "Ministry of Health & Family Welfare (NHM)",
+    "category": "women_child",
+    "summary": {
+      "en": "Cash incentive for delivering the baby in a government or accredited hospital.",
+      "hi": "सरकारी या मान्यता प्राप्त अस्पताल में प्रसव कराने पर नकद प्रोत्साहन।"
+    },
+    "benefit": {
+      "en": "₹1,400 (rural) / ₹1,000 (urban) cash on delivery in a government hospital",
+      "hi": "सरकारी अस्पताल में प्रसव पर ₹1,400 (ग्रामीण) / ₹1,000 (शहरी) नकद",
+      "oneTime": 1000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isPregnantOrLactating",
+          "op": "true"
+        }
+      ]
+    },
+    "documents": [
+      "mcp_card",
+      "aadhaar",
+      "bank_passbook",
+      "ration_card"
+    ],
+    "howToApply": {
+      "en": "Register pregnancy with your ASHA / ANM; payment is made after delivery at a government / accredited facility.",
+      "hi": "आशा / ANM के पास गर्भावस्था पंजीकृत कराएं; सरकारी / मान्यता प्राप्त अस्पताल में प्रसव के बाद भुगतान होता है।"
+    },
+    "applyUrl": "https://nhm.gov.in",
+    "sourceUrl": "https://nhm.gov.in",
+    "helpline": "104",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Register pregnancy early.",
+        "hi": "गर्भावस्था का पंजीकरण जल्दी कराएं।"
+      }
+    },
+    "stateNote": {
+      "en": "In Madhya Pradesh every pregnant woman delivering in a government facility is covered.",
+      "hi": "मध्यप्रदेश में सरकारी अस्पताल में प्रसव कराने वाली हर गर्भवती महिला पात्र है।"
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "icds-anganwadi",
+    "level": "household",
+    "name": {
+      "en": "Anganwadi Services (Saksham Anganwadi & Poshan 2.0)",
+      "hi": "आंगनवाड़ी सेवाएं (सक्षम आंगनवाड़ी और पोषण 2.0)"
+    },
+    "ministry": "Ministry of Women & Child Development",
+    "category": "women_child",
+    "summary": {
+      "en": "Free nutrition, health check-ups and pre-school for children under 6 and for pregnant / lactating women.",
+      "hi": "6 वर्ष से कम बच्चों और गर्भवती / धात्री महिलाओं के लिए मुफ़्त पोषण, स्वास्थ्य जाँच और प्री-स्कूल।"
+    },
+    "benefit": {
+      "en": "Take-home ration / hot cooked meals, immunisation, growth monitoring, pre-school education",
+      "hi": "घर ले जाने वाला राशन / गर्म पका भोजन, टीकाकरण, वृद्धि निगरानी, प्री-स्कूल शिक्षा"
+    },
+    "eligibility": {
+      "any": [
+        {
+          "field": "hasChildUnder6",
+          "op": "true"
+        },
+        {
+          "field": "isPregnantOrLactating",
+          "op": "true"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "birth_cert",
+      "mcp_card"
+    ],
+    "howToApply": {
+      "en": "Register at your nearest Anganwadi centre.",
+      "hi": "नज़दीकी आंगनवाड़ी केंद्र पर पंजीकरण करें।"
+    },
+    "applyUrl": "https://poshantracker.in",
+    "sourceUrl": "https://wcd.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Available any time.",
+        "hi": "कभी भी उपलब्ध।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "pm-poshan",
+    "level": "household",
+    "name": {
+      "en": "PM POSHAN (Mid-Day Meal)",
+      "hi": "पीएम पोषण (मध्याह्न भोजन)"
+    },
+    "ministry": "Ministry of Education",
+    "category": "education",
+    "summary": {
+      "en": "Free hot cooked lunch for children in Class 1–8 (and Bal Vatika) in government and aided schools.",
+      "hi": "सरकारी और सहायता प्राप्त स्कूलों में कक्षा 1–8 (और बाल वाटिका) के बच्चों को मुफ़्त गर्म पका भोजन।"
+    },
+    "benefit": {
+      "en": "Free nutritious lunch on every school day",
+      "hi": "हर स्कूल दिवस पर मुफ़्त पौष्टिक भोजन"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "hasSchoolChildren",
+          "op": "true",
+          "label": {
+            "en": "Child studying in Class 1–8",
+            "hi": "कक्षा 1–8 में पढ़ने वाला बच्चा"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Child is enrolled in a government / government-aided school",
+        "hi": "बच्चा सरकारी / सहायता प्राप्त स्कूल में नामांकित हो"
+      }
+    ],
+    "documents": [
+      "birth_cert"
+    ],
+    "howToApply": {
+      "en": "Automatic for enrolled students — ensure your child is enrolled in a government / aided school.",
+      "hi": "नामांकित छात्रों के लिए स्वतः — सुनिश्चित करें कि बच्चा सरकारी / सहायता प्राप्त स्कूल में नामांकित है।"
+    },
+    "applyUrl": "https://pmposhan.education.gov.in",
+    "sourceUrl": "https://pmposhan.education.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Enrol in school at the start of the academic year.",
+        "hi": "शैक्षणिक वर्ष की शुरुआत में स्कूल में दाखिला कराएं।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "adip",
+    "name": {
+      "en": "ADIP Scheme (Free aids & assistive devices)",
+      "hi": "ADIP योजना (मुफ़्त सहायक उपकरण)"
+    },
+    "ministry": "Ministry of Social Justice & Empowerment (DEPwD)",
+    "category": "disability",
+    "summary": {
+      "en": "Free or subsidised assistive devices (wheelchairs, hearing aids, tricycles, etc.) for persons with disabilities.",
+      "hi": "दिव्यांगजनों के लिए मुफ़्त या रियायती सहायक उपकरण (व्हीलचेयर, श्रवण यंत्र, ट्राइसाइकिल आदि)।"
+    },
+    "benefit": {
+      "en": "Full cost of aids if monthly income ≤ ₹22,500; 50% if ₹22,501–₹30,000",
+      "hi": "मासिक आय ≤ ₹22,500 पर उपकरण की पूरी लागत; ₹22,501–₹30,000 पर 50%"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isDisabled",
+          "op": "true"
+        },
+        {
+          "field": "disabilityPercent",
+          "op": "gte",
+          "value": 40
+        },
+        {
+          "field": "annualIncome",
+          "op": "lte",
+          "value": 360000,
+          "label": {
+            "en": "Monthly income ₹30,000 or less",
+            "hi": "मासिक आय ₹30,000 या कम"
+          }
+        }
+      ]
+    },
+    "documents": [
+      "disability_cert",
+      "income_cert",
+      "aadhaar",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply at ALIMCO camps, District Disability Rehabilitation Centre, or implementing NGOs.",
+      "hi": "ALIMCO शिविर, ज़िला दिव्यांगजन पुनर्वास केंद्र या कार्यान्वयन NGO पर आवेदन करें।"
+    },
+    "applyUrl": "https://depwd.gov.in",
+    "sourceUrl": "https://depwd.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Watch for assessment camps in your district.",
+        "hi": "अपने ज़िले में मूल्यांकन शिविरों की जानकारी रखें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "udid",
+    "name": {
+      "en": "UDID Card (Unique Disability ID)",
+      "hi": "UDID कार्ड (विशिष्ट दिव्यांगता पहचान पत्र)"
+    },
+    "ministry": "Ministry of Social Justice & Empowerment (DEPwD)",
+    "category": "disability",
+    "summary": {
+      "en": "Single national disability ID card — the key document for all disability benefits.",
+      "hi": "एकल राष्ट्रीय दिव्यांगता पहचान पत्र — सभी दिव्यांगता लाभों के लिए मुख्य दस्तावेज़।"
+    },
+    "benefit": {
+      "en": "Free UDID card and disability certificate valid across India",
+      "hi": "पूरे भारत में मान्य मुफ़्त UDID कार्ड और दिव्यांगता प्रमाण पत्र"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isDisabled",
+          "op": "true"
+        }
+      ]
+    },
+    "documents": [
+      "aadhaar",
+      "photo",
+      "address_proof"
+    ],
+    "howToApply": {
+      "en": "Apply on swavlambancard.gov.in; you'll be called for assessment by the medical board.",
+      "hi": "swavlambancard.gov.in पर आवेदन करें; मेडिकल बोर्ड मूल्यांकन के लिए बुलाएगा।"
+    },
+    "applyUrl": "https://www.swavlambancard.gov.in",
+    "sourceUrl": "https://www.swavlambancard.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "bocw",
+    "name": {
+      "en": "Construction Workers Welfare Board (BOCW) Registration",
+      "hi": "भवन एवं अन्य निर्माण श्रमिक कल्याण बोर्ड (BOCW) पंजीकरण"
+    },
+    "ministry": "Ministry of Labour & Employment (State BOCW Boards)",
+    "category": "employment",
+    "summary": {
+      "en": "Registered construction workers get state welfare board benefits — education aid for children, maternity, accident cover, pension and more.",
+      "hi": "पंजीकृत निर्माण श्रमिकों को राज्य कल्याण बोर्ड के लाभ — बच्चों की शिक्षा सहायता, मातृत्व, दुर्घटना बीमा, पेंशन आदि।"
+    },
+    "benefit": {
+      "en": "State-specific: scholarships for children, maternity benefit, accident & death assistance, tools, housing loans",
+      "hi": "राज्य अनुसार: बच्चों की छात्रवृत्ति, मातृत्व लाभ, दुर्घटना व मृत्यु सहायता, औज़ार, आवास ऋण"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "construction_worker"
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            60
+          ]
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Worked at least 90 days in construction in the last 12 months",
+        "hi": "पिछले 12 महीनों में कम से कम 90 दिन निर्माण कार्य किया हो"
+      }
+    ],
+    "documents": [
+      "aadhaar",
+      "work_cert",
+      "age_proof",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Register with your State Building & Other Construction Workers Welfare Board (online or at the labour office).",
+      "hi": "अपने राज्य के भवन एवं अन्य निर्माण श्रमिक कल्याण बोर्ड में पंजीकरण कराएं (ऑनलाइन या श्रम कार्यालय में)।"
+    },
+    "applyUrl": "https://labour.gov.in",
+    "sourceUrl": "https://labour.gov.in",
+    "helpline": null,
+    "deadline": {
+      "type": "renewal",
+      "note": {
+        "en": "Registration must be renewed periodically (usually yearly) as per your state board.",
+        "hi": "राज्य बोर्ड के अनुसार पंजीकरण का समय-समय पर (आमतौर पर सालाना) नवीनीकरण ज़रूरी।"
+      }
+    },
+    "reviewedOn": null
+  }
+]

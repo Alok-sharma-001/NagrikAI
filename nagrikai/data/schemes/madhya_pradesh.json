@@ -1,0 +1,1689 @@
+[
+  {
+    "id": "mp-ladli-behna",
+    "scope": "mp",
+    "intakeClosed": true,
+    "name": {
+      "en": "Mukhyamantri Ladli Behna Yojana",
+      "hi": "मुख्यमंत्री लाड़ली बहना योजना"
+    },
+    "ministry": "Women & Child Development Dept., Govt. of MP",
+    "category": "women_child",
+    "summary": {
+      "en": "Monthly money sent to the bank account of married, widowed, divorced or abandoned women.",
+      "hi": "विवाहित, विधवा, तलाकशुदा या परित्यक्ता महिलाओं के खाते में हर महीने राशि।"
+    },
+    "benefit": {
+      "en": "₹1,500 every month (₹18,000 a year)",
+      "hi": "हर महीने ₹1,500 (सालाना ₹18,000)",
+      "cashPerYear": 18000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            21,
+            60
+          ]
+        },
+        {
+          "field": "maritalStatus",
+          "op": "in",
+          "value": [
+            "married",
+            "widowed",
+            "divorced"
+          ],
+          "label": {
+            "en": "Married, widowed, divorced or abandoned",
+            "hi": "विवाहित, विधवा, तलाकशुदा या परित्यक्ता"
+          }
+        },
+        {
+          "field": "annualIncome",
+          "op": "lte",
+          "value": 250000,
+          "label": {
+            "en": "Family income up to ₹2.5 lakh a year",
+            "hi": "पारिवारिक आय ₹2.5 लाख सालाना तक"
+          }
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        },
+        {
+          "field": "landHectares",
+          "op": "lte",
+          "value": 2.02,
+          "label": {
+            "en": "Family owns 5 acres of farm land or less",
+            "hi": "परिवार के पास 5 एकड़ या कम खेती की ज़मीन"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "No family member is a government employee / pensioner, MP or MLA; family has no four-wheeler (tractor allowed)",
+        "hi": "परिवार में कोई सरकारी कर्मचारी / पेंशनर, सांसद या विधायक न हो; परिवार के पास चार पहिया वाहन न हो (ट्रैक्टर छोड़कर)"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "bank_passbook",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "New registrations are currently closed. If you are already registered, the money comes automatically — keep Samagra e-KYC and Aadhaar-linked bank account active. Watch for the next registration camp at your Gram Panchayat / ward office.",
+      "hi": "नए पंजीयन अभी बंद हैं। जो पहले से पंजीकृत हैं उन्हें राशि अपने आप मिलती है — समग्र e-KYC और आधार से जुड़ा बैंक खाता चालू रखें। अगले पंजीयन शिविर की जानकारी ग्राम पंचायत / वार्ड कार्यालय से लें।"
+    },
+    "applyUrl": "https://cmladlibahna.mp.gov.in",
+    "sourceUrl": "https://cmladlibahna.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "New registrations are closed right now; existing beneficiaries are paid around the 10th of each month.",
+        "hi": "नए पंजीयन अभी बंद हैं; पुराने लाभार्थियों को हर महीने लगभग 10 तारीख को भुगतान होता है।"
+      }
+    },
+    "reviewedOn": "2026-10-01"
+  },
+  {
+    "id": "mp-ladli-laxmi",
+    "scope": "mp",
+    "name": {
+      "en": "Ladli Laxmi Yojana 2.0",
+      "hi": "लाड़ली लक्ष्मी योजना 2.0"
+    },
+    "ministry": "Women & Child Development Dept., Govt. of MP",
+    "category": "women_child",
+    "summary": {
+      "en": "Money for a daughter's education at each stage, and ₹1 lakh when she turns 21.",
+      "hi": "बेटी की पढ़ाई के हर पड़ाव पर राशि, और 21 वर्ष की होने पर ₹1 लाख।"
+    },
+    "benefit": {
+      "en": "₹1,43,000 in total: ₹2,000 (Class 6), ₹4,000 (Class 9), ₹6,000 (Class 11), ₹6,000 (Class 12), ₹25,000 (college), ₹1,00,000 at age 21",
+      "hi": "कुल ₹1,43,000: कक्षा 6 में ₹2,000, कक्षा 9 में ₹4,000, कक्षा 11 में ₹6,000, कक्षा 12 में ₹6,000, कॉलेज में ₹25,000, और 21 वर्ष पर ₹1,00,000",
+      "oneTime": 143000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female",
+          "label": {
+            "en": "Daughter",
+            "hi": "बेटी"
+          }
+        },
+        {
+          "field": "age",
+          "op": "lte",
+          "value": 20,
+          "label": {
+            "en": "Born on or after 1 January 2006",
+            "hi": "1 जनवरी 2006 या उसके बाद जन्म"
+          }
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Registered at the Anganwadi within one year of birth; parents are MP residents with two or fewer children",
+        "hi": "जन्म के एक वर्ष के भीतर आंगनवाड़ी में पंजीयन; माता-पिता मध्यप्रदेश के निवासी और दो या कम संतान"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "birth_cert",
+      "aadhaar",
+      "domicile",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Register at your Anganwadi centre, Lok Seva Kendra or on the Ladli Laxmi portal — ideally within one year of the girl's birth.",
+      "hi": "आंगनवाड़ी केंद्र, लोक सेवा केंद्र या लाड़ली लक्ष्मी पोर्टल पर पंजीयन कराएँ — बेटी के जन्म के एक वर्ष के भीतर।"
+    },
+    "applyUrl": "https://ladlilaxmi.mp.gov.in",
+    "sourceUrl": "https://ladlilaxmi.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-kisan-kalyan",
+    "level": "household",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Kisan Kalyan Yojana",
+      "hi": "मुख्यमंत्री किसान कल्याण योजना"
+    },
+    "ministry": "Revenue Dept., Govt. of MP",
+    "category": "agriculture",
+    "summary": {
+      "en": "Extra money from the MP government for every farmer who gets PM-KISAN.",
+      "hi": "PM-किसान पाने वाले हर किसान को मध्यप्रदेश सरकार की ओर से अतिरिक्त राशि।"
+    },
+    "benefit": {
+      "en": "₹6,000 a year in three instalments — on top of PM-KISAN's ₹6,000",
+      "hi": "सालाना ₹6,000 तीन किस्तों में — PM-किसान के ₹6,000 के अतिरिक्त",
+      "cashPerYear": 6000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "farmer"
+        },
+        {
+          "field": "landHectares",
+          "op": "gt",
+          "value": 0,
+          "label": {
+            "en": "Owns farm land in own name",
+            "hi": "अपने नाम पर खेती की ज़मीन"
+          }
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Registered under PM-KISAN",
+        "hi": "PM-किसान में पंजीकृत हों"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "land_records",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "No separate form — if you receive PM-KISAN in MP you are enrolled automatically. Verification is done by the Patwari; check status on the SAARA portal.",
+      "hi": "अलग फ़ॉर्म नहीं — मध्यप्रदेश में PM-किसान मिल रहा है तो आप अपने आप जुड़ जाते हैं। सत्यापन पटवारी करते हैं; स्थिति SAARA पोर्टल पर देखें।"
+    },
+    "applyUrl": "https://saara.mp.gov.in",
+    "sourceUrl": "https://saara.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-sambal",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Jan Kalyan (Sambal) Yojana 2.0",
+      "hi": "मुख्यमंत्री जन कल्याण (संबल) योजना 2.0"
+    },
+    "ministry": "Labour Dept., Govt. of MP",
+    "category": "employment",
+    "summary": {
+      "en": "One card for unorganised workers: help on childbirth, accident, disability and death, and children's education.",
+      "hi": "असंगठित श्रमिकों के लिए एक कार्ड: प्रसव, दुर्घटना, दिव्यांगता और मृत्यु पर सहायता, तथा बच्चों की पढ़ाई में मदद।"
+    },
+    "benefit": {
+      "en": "₹16,000 maternity help · ₹4 lakh on accidental death, ₹2 lakh on natural death · ₹1–2 lakh on disability · ₹5,000 funeral help",
+      "hi": "प्रसूति सहायता ₹16,000 · दुर्घटना मृत्यु पर ₹4 लाख, सामान्य मृत्यु पर ₹2 लाख · दिव्यांगता पर ₹1–2 लाख · अंत्येष्टि सहायता ₹5,000",
+      "cover": 400000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "in",
+          "value": [
+            "agri_labourer",
+            "construction_worker",
+            "domestic_worker",
+            "street_vendor",
+            "artisan",
+            "fisherman",
+            "self_employed",
+            "other",
+            "farmer"
+          ],
+          "label": {
+            "en": "Unorganised sector worker",
+            "hi": "असंगठित क्षेत्र का श्रमिक"
+          }
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            60
+          ]
+        },
+        {
+          "field": "isEpfoMember",
+          "op": "false"
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        },
+        {
+          "field": "landHectares",
+          "op": "lte",
+          "value": 1,
+          "label": {
+            "en": "Owns 1 hectare of land or less",
+            "hi": "1 हेक्टेयर या कम ज़मीन"
+          }
+        }
+      ]
+    },
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "bank_passbook",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "Apply on the Sambal portal, at MP Online / CSC kiosk or Lok Seva Kendra with Samagra ID and Aadhaar e-KYC.",
+      "hi": "समग्र ID और आधार e-KYC के साथ संबल पोर्टल, MP Online / CSC कियोस्क या लोक सेवा केंद्र पर आवेदन करें।"
+    },
+    "applyUrl": "https://sambal.mp.gov.in",
+    "sourceUrl": "https://sambal.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-vriddha-pension",
+    "scope": "mp",
+    "name": {
+      "en": "Old Age Pension (Samagra Social Security)",
+      "hi": "वृद्धावस्था पेंशन (समग्र सामाजिक सुरक्षा)"
+    },
+    "ministry": "Social Justice & Disabled Welfare Dept., Govt. of MP",
+    "category": "pension",
+    "summary": {
+      "en": "Monthly pension for elderly people who cannot support themselves.",
+      "hi": "अपना भरण-पोषण न कर पाने वाले बुज़ुर्गों के लिए मासिक पेंशन।"
+    },
+    "benefit": {
+      "en": "₹600 every month",
+      "hi": "हर महीने ₹600",
+      "cashPerYear": 7200
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 60
+        },
+        {
+          "field": "isBPL",
+          "op": "true",
+          "label": {
+            "en": "BPL card or destitute",
+            "hi": "BPL कार्ड या निराश्रित"
+          }
+        }
+      ]
+    },
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "age_proof",
+      "ration_card",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply at the Gram Panchayat (village) or municipal office (city), or on the Social Security Pension portal with your Samagra ID.",
+      "hi": "ग्राम पंचायत (गाँव) या नगर निगम / नगर पालिका (शहर) में, या समग्र ID के साथ सामाजिक सुरक्षा पेंशन पोर्टल पर आवेदन करें।"
+    },
+    "applyUrl": "https://socialsecurity.mp.gov.in",
+    "sourceUrl": "https://socialjustice.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": "2026-10-01"
+  },
+  {
+    "id": "mp-kalyani-pension",
+    "scope": "mp",
+    "name": {
+      "en": "Kalyani (Widow) Pension",
+      "hi": "कल्याणी (विधवा) पेंशन"
+    },
+    "ministry": "Social Justice & Disabled Welfare Dept., Govt. of MP",
+    "category": "pension",
+    "summary": {
+      "en": "Monthly pension for widows aged 18 and above — no BPL card needed.",
+      "hi": "18 वर्ष या अधिक आयु की विधवा महिलाओं के लिए मासिक पेंशन — BPL कार्ड ज़रूरी नहीं।"
+    },
+    "benefit": {
+      "en": "₹600 every month",
+      "hi": "हर महीने ₹600",
+      "cashPerYear": 7200
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "maritalStatus",
+          "op": "eq",
+          "value": "widowed"
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Not receiving a family pension",
+        "hi": "पारिवारिक पेंशन न मिल रही हो"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "death_cert",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply at the Gram Panchayat or municipal office, or on the Social Security Pension portal with your Samagra ID and husband's death certificate.",
+      "hi": "ग्राम पंचायत या नगर निगम कार्यालय में, या समग्र ID और पति के मृत्यु प्रमाण पत्र के साथ सामाजिक सुरक्षा पेंशन पोर्टल पर आवेदन करें।"
+    },
+    "applyUrl": "https://socialsecurity.mp.gov.in",
+    "sourceUrl": "https://socialjustice.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": "2026-10-01"
+  },
+  {
+    "id": "mp-divyang-pension",
+    "scope": "mp",
+    "name": {
+      "en": "Divyang (Disability) Pension",
+      "hi": "दिव्यांग पेंशन"
+    },
+    "ministry": "Social Justice & Disabled Welfare Dept., Govt. of MP",
+    "category": "disability",
+    "summary": {
+      "en": "Monthly pension for persons with 40% or more disability; children aged 6–18 get it as education support.",
+      "hi": "40% या अधिक दिव्यांगता वाले व्यक्तियों के लिए मासिक पेंशन; 6–18 वर्ष के बच्चों को शिक्षा प्रोत्साहन के रूप में।"
+    },
+    "benefit": {
+      "en": "₹600 every month",
+      "hi": "हर महीने ₹600",
+      "cashPerYear": 7200
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isDisabled",
+          "op": "true"
+        },
+        {
+          "field": "disabilityPercent",
+          "op": "gte",
+          "value": 40
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 6
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "disability_cert",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply at the Gram Panchayat or municipal office, or on the Social Security Pension portal with your Samagra ID and disability certificate.",
+      "hi": "ग्राम पंचायत या नगर निगम कार्यालय में, या समग्र ID और दिव्यांगता प्रमाण पत्र के साथ सामाजिक सुरक्षा पेंशन पोर्टल पर आवेदन करें।"
+    },
+    "applyUrl": "https://socialsecurity.mp.gov.in",
+    "sourceUrl": "https://socialjustice.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": "2026-10-01"
+  },
+  {
+    "id": "mp-parityakta-pension",
+    "scope": "mp",
+    "name": {
+      "en": "Pension for Abandoned Women",
+      "hi": "परित्यक्ता पेंशन"
+    },
+    "ministry": "Social Justice & Disabled Welfare Dept., Govt. of MP",
+    "category": "pension",
+    "summary": {
+      "en": "Monthly pension for abandoned or divorced women from BPL families.",
+      "hi": "BPL परिवारों की परित्यक्ता या तलाकशुदा महिलाओं के लिए मासिक पेंशन।"
+    },
+    "benefit": {
+      "en": "₹600 every month",
+      "hi": "हर महीने ₹600",
+      "cashPerYear": 7200
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "maritalStatus",
+          "op": "eq",
+          "value": "divorced",
+          "label": {
+            "en": "Abandoned or divorced",
+            "hi": "परित्यक्ता या तलाकशुदा"
+          }
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            59
+          ]
+        },
+        {
+          "field": "isBPL",
+          "op": "true"
+        }
+      ]
+    },
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "ration_card",
+      "bank_passbook",
+      "self_declaration"
+    ],
+    "howToApply": {
+      "en": "Apply at the Gram Panchayat or municipal office with a certificate from the Sarpanch / Secretary or a court order.",
+      "hi": "सरपंच / सचिव के प्रमाण पत्र या न्यायालय के आदेश के साथ ग्राम पंचायत या नगर निगम कार्यालय में आवेदन करें।"
+    },
+    "applyUrl": "https://socialsecurity.mp.gov.in",
+    "sourceUrl": "https://socialjustice.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": "2026-10-01"
+  },
+  {
+    "id": "mp-kanya-vivah",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Kanya Vivah / Nikah Yojana",
+      "hi": "मुख्यमंत्री कन्या विवाह / निकाह योजना"
+    },
+    "ministry": "Social Justice & Disabled Welfare Dept., Govt. of MP",
+    "category": "women_child",
+    "summary": {
+      "en": "Financial help for the marriage of daughters of needy families, in a mass-marriage ceremony.",
+      "hi": "ज़रूरतमंद परिवारों की बेटियों के विवाह के लिए सामूहिक विवाह सम्मेलन में आर्थिक सहायता।"
+    },
+    "benefit": {
+      "en": "₹55,000 per bride — ₹49,000 paid to the bride",
+      "hi": "प्रति वधू ₹55,000 — जिसमें ₹49,000 वधू को",
+      "oneTime": 49000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        },
+        {
+          "field": "maritalStatus",
+          "op": "in",
+          "value": [
+            "single",
+            "widowed",
+            "divorced"
+          ],
+          "label": {
+            "en": "Unmarried, widowed or abandoned",
+            "hi": "अविवाहित, विधवा या परित्यक्ता"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Groom is at least 21; the marriage takes place in the government mass-marriage ceremony",
+        "hi": "वर की आयु कम से कम 21 वर्ष; विवाह शासकीय सामूहिक विवाह सम्मेलन में हो"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "age_proof",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply at the Gram Panchayat / Janpad Panchayat (village) or municipal office (city) before the mass-marriage date announced for your area.",
+      "hi": "अपने क्षेत्र के सामूहिक विवाह की घोषित तिथि से पहले ग्राम / जनपद पंचायत (गाँव) या नगर निगम कार्यालय (शहर) में आवेदन करें।"
+    },
+    "applyUrl": "https://socialjustice.mp.gov.in",
+    "sourceUrl": "https://socialjustice.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Mass-marriage dates are announced a few times a year — apply before the date for your area.",
+        "hi": "सामूहिक विवाह की तिथियाँ साल में कुछ बार घोषित होती हैं — अपने क्षेत्र की तिथि से पहले आवेदन करें।"
+      }
+    },
+    "reviewedOn": null,
+    "eventBased": {
+      "en": "Paid at the time of marriage",
+      "hi": "विवाह के समय मिलती है"
+    }
+  },
+  {
+    "id": "mp-seekho-kamao",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Seekho Kamao Yojana",
+      "hi": "मुख्यमंत्री सीखो-कमाओ योजना"
+    },
+    "ministry": "Technical Education, Skill Development & Employment Dept., Govt. of MP",
+    "category": "skill",
+    "summary": {
+      "en": "Paid on-the-job training in companies for educated unemployed youth.",
+      "hi": "पढ़े-लिखे बेरोज़गार युवाओं को कंपनियों में काम सीखते हुए स्टाइपेंड।"
+    },
+    "benefit": {
+      "en": "₹8,000–₹10,000 every month during training (12th: ₹8,000 · ITI: ₹8,500 · Diploma: ₹9,000 · Graduate: ₹10,000)",
+      "hi": "प्रशिक्षण के दौरान हर महीने ₹8,000–₹10,000 (12वीं: ₹8,000 · ITI: ₹8,500 · डिप्लोमा: ₹9,000 · स्नातक: ₹10,000)",
+      "cashPerYear": 96000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            29
+          ]
+        },
+        {
+          "field": "occupation",
+          "op": "in",
+          "value": [
+            "unemployed",
+            "student"
+          ],
+          "label": {
+            "en": "Not employed",
+            "hi": "रोज़गार में नहीं"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Passed Class 12, ITI or higher",
+        "hi": "12वीं, ITI या उससे ऊपर उत्तीर्ण"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "marksheet",
+      "bank_passbook",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "Register on the MMSKY portal with Samagra ID, choose a course and company, and sign the training contract.",
+      "hi": "समग्र ID से MMSKY पोर्टल पर पंजीयन करें, कोर्स और कंपनी चुनें, और प्रशिक्षण अनुबंध करें।"
+    },
+    "applyUrl": "https://mmsky.mp.gov.in",
+    "sourceUrl": "https://mmsky.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null,
+    "altGroup": "youth-training"
+  },
+  {
+    "id": "mp-medhavi",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Medhavi Vidyarthi Yojana",
+      "hi": "मुख्यमंत्री मेधावी विद्यार्थी योजना"
+    },
+    "ministry": "Technical Education Dept., Govt. of MP",
+    "category": "education",
+    "summary": {
+      "en": "The state pays college fees for meritorious students from lower-income families.",
+      "hi": "कम आय वाले परिवारों के मेधावी विद्यार्थियों की कॉलेज फ़ीस राज्य सरकार भरती है।"
+    },
+    "benefit": {
+      "en": "Full tuition fee for engineering, medical, law and other degree courses in listed institutions",
+      "hi": "सूचीबद्ध संस्थानों में इंजीनियरिंग, मेडिकल, लॉ व अन्य डिग्री कोर्स की पूरी ट्यूशन फ़ीस"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isStudent",
+          "op": "true"
+        },
+        {
+          "field": "studyLevel",
+          "op": "in",
+          "value": [
+            "diploma",
+            "ug",
+            "pg"
+          ],
+          "label": {
+            "en": "Studying in college",
+            "hi": "कॉलेज में पढ़ाई"
+          }
+        },
+        {
+          "any": [
+            {
+              "field": "annualIncome",
+              "op": "lte",
+              "value": 600000
+            },
+            {
+              "all": [
+                {
+                  "field": "category",
+                  "op": "in",
+                  "value": [
+                    "sc",
+                    "st"
+                  ]
+                },
+                {
+                  "field": "annualIncome",
+                  "op": "lte",
+                  "value": 800000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "70% or more in Class 12 (MP Board) or 85% (CBSE / ICSE)",
+        "hi": "12वीं में 70% या अधिक (MP बोर्ड) या 85% (CBSE / ICSE)"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "marksheet",
+      "income_cert",
+      "domicile",
+      "fee_receipt"
+    ],
+    "howToApply": {
+      "en": "Apply on the MP Scholarship Portal after taking admission.",
+      "hi": "प्रवेश लेने के बाद MP स्कॉलरशिप पोर्टल पर आवेदन करें।"
+    },
+    "applyUrl": "https://scholarshipportal.mp.nic.in",
+    "sourceUrl": "https://scholarshipportal.mp.nic.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "annual",
+      "month": 10,
+      "day": 31,
+      "note": {
+        "en": "Apply in the admission year; the portal usually closes around October–November.",
+        "hi": "प्रवेश वाले वर्ष में आवेदन करें; पोर्टल आमतौर पर अक्टूबर–नवंबर के आसपास बंद होता है।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-gaon-ki-beti",
+    "scope": "mp",
+    "name": {
+      "en": "Gaon Ki Beti Yojana",
+      "hi": "गाँव की बेटी योजना"
+    },
+    "ministry": "Higher Education Dept., Govt. of MP",
+    "category": "education",
+    "summary": {
+      "en": "Scholarship for village girls who passed Class 12 in first division and joined college.",
+      "hi": "12वीं प्रथम श्रेणी में पास करके कॉलेज में प्रवेश लेने वाली गाँव की बेटियों के लिए छात्रवृत्ति।"
+    },
+    "benefit": {
+      "en": "₹500 a month for 10 months (₹5,000 a year)",
+      "hi": "10 महीने तक ₹500 प्रति माह (सालाना ₹5,000)",
+      "cashPerYear": 5000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "rural"
+        },
+        {
+          "field": "isStudent",
+          "op": "true"
+        },
+        {
+          "field": "studyLevel",
+          "op": "in",
+          "value": [
+            "ug",
+            "pg"
+          ],
+          "label": {
+            "en": "Studying in college",
+            "hi": "कॉलेज में पढ़ाई"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "60% or more in Class 12; studied Class 12 from a village school",
+        "hi": "12वीं में 60% या अधिक; गाँव के स्कूल से 12वीं"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "marksheet",
+      "domicile",
+      "bank_passbook",
+      "bonafide"
+    ],
+    "howToApply": {
+      "en": "Apply on the Higher Education scholarship portal through your college.",
+      "hi": "अपने कॉलेज के माध्यम से उच्च शिक्षा छात्रवृत्ति पोर्टल पर आवेदन करें।"
+    },
+    "applyUrl": "https://hescholarship.mp.gov.in",
+    "sourceUrl": "https://hescholarship.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "annual",
+      "month": 10,
+      "day": 31,
+      "note": {
+        "en": "Apply every academic year when the portal opens; check the last date on the portal.",
+        "hi": "हर शैक्षणिक वर्ष पोर्टल खुलने पर आवेदन करें; अंतिम तिथि पोर्टल पर देखें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-pratibha-kiran",
+    "scope": "mp",
+    "name": {
+      "en": "Pratibha Kiran Yojana",
+      "hi": "प्रतिभा किरण योजना"
+    },
+    "ministry": "Higher Education Dept., Govt. of MP",
+    "category": "education",
+    "summary": {
+      "en": "Scholarship for city girls from BPL families who passed Class 12 in first division and joined college.",
+      "hi": "BPL परिवारों की शहरी बेटियों के लिए छात्रवृत्ति, जिन्होंने 12वीं प्रथम श्रेणी में पास कर कॉलेज में प्रवेश लिया।"
+    },
+    "benefit": {
+      "en": "₹500 a month for 10 months (₹5,000 a year)",
+      "hi": "10 महीने तक ₹500 प्रति माह (सालाना ₹5,000)",
+      "cashPerYear": 5000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "urban"
+        },
+        {
+          "field": "isBPL",
+          "op": "true"
+        },
+        {
+          "field": "isStudent",
+          "op": "true"
+        },
+        {
+          "field": "studyLevel",
+          "op": "in",
+          "value": [
+            "ug",
+            "pg"
+          ],
+          "label": {
+            "en": "Studying in college",
+            "hi": "कॉलेज में पढ़ाई"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "60% or more in Class 12",
+        "hi": "12वीं में 60% या अधिक"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "marksheet",
+      "ration_card",
+      "bank_passbook",
+      "bonafide"
+    ],
+    "howToApply": {
+      "en": "Apply on the Higher Education scholarship portal through your college.",
+      "hi": "अपने कॉलेज के माध्यम से उच्च शिक्षा छात्रवृत्ति पोर्टल पर आवेदन करें।"
+    },
+    "applyUrl": "https://hescholarship.mp.gov.in",
+    "sourceUrl": "https://hescholarship.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "annual",
+      "month": 10,
+      "day": 31,
+      "note": {
+        "en": "Apply every academic year when the portal opens.",
+        "hi": "हर शैक्षणिक वर्ष पोर्टल खुलने पर आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-laptop",
+    "scope": "mp",
+    "name": {
+      "en": "Pratibhashali Vidyarthi Protsahan (Laptop) Yojana",
+      "hi": "प्रतिभाशाली विद्यार्थी प्रोत्साहन (लैपटॉप) योजना"
+    },
+    "ministry": "School Education Dept., Govt. of MP",
+    "category": "education",
+    "summary": {
+      "en": "Money to buy a laptop for students who score high marks in Class 12 (MP Board).",
+      "hi": "MP बोर्ड की 12वीं में अच्छे अंक लाने वाले विद्यार्थियों को लैपटॉप के लिए राशि।"
+    },
+    "benefit": {
+      "en": "₹25,000 one-time",
+      "hi": "₹25,000 एकमुश्त",
+      "oneTime": 25000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isStudent",
+          "op": "true"
+        },
+        {
+          "field": "studyLevel",
+          "op": "eq",
+          "value": "class_11_12",
+          "label": {
+            "en": "Studying in Class 12",
+            "hi": "कक्षा 12 में पढ़ाई"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "75% or more in Class 12 (MP Board) in the first attempt",
+        "hi": "पहले प्रयास में 12वीं (MP बोर्ड) में 75% या अधिक"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "marksheet",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "No application — eligible students are listed from the MP Board result and paid directly. Keep the bank account in the student's name updated on the Shiksha Portal.",
+      "hi": "आवेदन नहीं करना — MP बोर्ड के परिणाम से पात्र विद्यार्थियों की सूची बनती है और राशि सीधे खाते में आती है। शिक्षा पोर्टल पर विद्यार्थी का बैंक खाता अपडेट रखें।"
+    },
+    "applyUrl": "https://shikshaportal.mp.gov.in",
+    "sourceUrl": "https://shikshaportal.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-scooty",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Scooty Yojana",
+      "hi": "मुख्यमंत्री स्कूटी योजना"
+    },
+    "ministry": "School Education Dept., Govt. of MP",
+    "category": "education",
+    "summary": {
+      "en": "A free scooter for the Class 12 topper of each government higher secondary school.",
+      "hi": "हर शासकीय हायर सेकंडरी स्कूल के 12वीं के टॉपर को मुफ़्त स्कूटी।"
+    },
+    "benefit": {
+      "en": "Free e-scooter, or money for a petrol scooter",
+      "hi": "मुफ़्त ई-स्कूटी, या पेट्रोल स्कूटी के लिए राशि"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isStudent",
+          "op": "true"
+        },
+        {
+          "field": "studyLevel",
+          "op": "eq",
+          "value": "class_11_12",
+          "label": {
+            "en": "Studying in Class 12",
+            "hi": "कक्षा 12 में पढ़ाई"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "First rank in your government school in Class 12 with at least 70%",
+        "hi": "अपने शासकीय स्कूल में 12वीं में प्रथम स्थान, कम से कम 70% अंक"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "marksheet",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "No application — the school's topper is selected from the MP Board result (list on the Vimarsh portal).",
+      "hi": "आवेदन नहीं करना — स्कूल के टॉपर का चयन MP बोर्ड के परिणाम से होता है (सूची विमर्श पोर्टल पर)।"
+    },
+    "applyUrl": "https://shikshaportal.mp.gov.in",
+    "sourceUrl": "https://shikshaportal.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-cycle",
+    "scope": "mp",
+    "name": {
+      "en": "Free Bicycle Distribution Scheme",
+      "hi": "निःशुल्क साइकिल वितरण योजना"
+    },
+    "ministry": "School Education Dept., Govt. of MP",
+    "category": "education",
+    "summary": {
+      "en": "A free bicycle for village students joining Class 6 or 9 in a government school far from home.",
+      "hi": "घर से दूर शासकीय स्कूल में कक्षा 6 या 9 में प्रवेश लेने वाले गाँव के विद्यार्थियों को मुफ़्त साइकिल।"
+    },
+    "benefit": {
+      "en": "One free bicycle",
+      "hi": "एक मुफ़्त साइकिल"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isStudent",
+          "op": "true"
+        },
+        {
+          "field": "studyLevel",
+          "op": "in",
+          "value": [
+            "class_1_8",
+            "class_9_10"
+          ],
+          "label": {
+            "en": "Studying in Class 6 or Class 9",
+            "hi": "कक्षा 6 या कक्षा 9 में पढ़ाई"
+          }
+        },
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "rural"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Government school; no school of that level in your village; school is at least 2 km away",
+        "hi": "शासकीय स्कूल; आपके गाँव में उस स्तर का स्कूल न हो; स्कूल कम से कम 2 किमी दूर हो"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "bonafide"
+    ],
+    "howToApply": {
+      "en": "Given through the school — tell the head teacher that your village has no school of that level and the school is 2 km or more away.",
+      "hi": "स्कूल के माध्यम से मिलती है — प्रधानाध्यापक को बताएँ कि आपके गाँव में उस स्तर का स्कूल नहीं है और स्कूल 2 किमी या अधिक दूर है।"
+    },
+    "applyUrl": "https://shikshaportal.mp.gov.in",
+    "sourceUrl": "https://shikshaportal.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-udyam-kranti",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Udyam Kranti Yojana",
+      "hi": "मुख्यमंत्री उद्यम क्रांति योजना"
+    },
+    "ministry": "MSME Dept., Govt. of MP",
+    "category": "business",
+    "summary": {
+      "en": "Bank loans with interest subsidy for youth to start a business, shop or service.",
+      "hi": "युवाओं को उद्योग, दुकान या सेवा शुरू करने के लिए ब्याज अनुदान सहित बैंक ऋण।"
+    },
+    "benefit": {
+      "en": "Loan of ₹50,000 to ₹50 lakh with 3% interest subsidy and loan-guarantee fee paid by the state",
+      "hi": "₹50,000 से ₹50 लाख तक का ऋण, 3% ब्याज अनुदान और गारंटी शुल्क राज्य द्वारा"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            45
+          ]
+        },
+        {
+          "field": "wantsToStartBusiness",
+          "op": "true"
+        },
+        {
+          "field": "annualIncome",
+          "op": "lte",
+          "value": 1200000,
+          "label": {
+            "en": "Family income up to ₹12 lakh a year",
+            "hi": "पारिवारिक आय ₹12 लाख सालाना तक"
+          }
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Passed Class 8; not a loan defaulter",
+        "hi": "8वीं उत्तीर्ण; किसी बैंक का डिफ़ॉल्टर न हो"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "marksheet",
+      "business_plan",
+      "bank_passbook",
+      "pan"
+    ],
+    "howToApply": {
+      "en": "Apply online on the SAMAST portal; the bank sanctions the loan.",
+      "hi": "SAMAST पोर्टल पर ऑनलाइन आवेदन करें; ऋण बैंक स्वीकृत करता है।"
+    },
+    "applyUrl": "https://samast.mponline.gov.in",
+    "sourceUrl": "https://samast.mponline.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-ravidas-swarozgar",
+    "scope": "mp",
+    "name": {
+      "en": "Sant Ravidas Swarozgar Yojana (SC)",
+      "hi": "संत रविदास स्वरोज़गार योजना (अनुसूचित जाति)"
+    },
+    "ministry": "Scheduled Caste Welfare Dept., Govt. of MP",
+    "category": "business",
+    "summary": {
+      "en": "Self-employment loans with interest subsidy for Scheduled Caste youth.",
+      "hi": "अनुसूचित जाति के युवाओं के लिए ब्याज अनुदान सहित स्वरोज़गार ऋण।"
+    },
+    "benefit": {
+      "en": "Loan of ₹1 lakh to ₹50 lakh with 5% interest subsidy",
+      "hi": "₹1 लाख से ₹50 लाख तक का ऋण, 5% ब्याज अनुदान"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "category",
+          "op": "eq",
+          "value": "sc"
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            45
+          ]
+        },
+        {
+          "field": "wantsToStartBusiness",
+          "op": "true"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Passed Class 8; family income up to ₹12 lakh",
+        "hi": "8वीं उत्तीर्ण; पारिवारिक आय ₹12 लाख तक"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "caste_cert",
+      "business_plan",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Apply online on the SAMAST portal.",
+      "hi": "SAMAST पोर्टल पर ऑनलाइन आवेदन करें।"
+    },
+    "applyUrl": "https://samast.mponline.gov.in",
+    "sourceUrl": "https://samast.mponline.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-birsa-munda-swarozgar",
+    "scope": "mp",
+    "name": {
+      "en": "Bhagwan Birsa Munda Swarozgar Yojana (ST)",
+      "hi": "भगवान बिरसा मुंडा स्वरोज़गार योजना (अनुसूचित जनजाति)"
+    },
+    "ministry": "Tribal Affairs Dept., Govt. of MP",
+    "category": "business",
+    "summary": {
+      "en": "Self-employment loans with interest subsidy for Scheduled Tribe youth.",
+      "hi": "अनुसूचित जनजाति के युवाओं के लिए ब्याज अनुदान सहित स्वरोज़गार ऋण।"
+    },
+    "benefit": {
+      "en": "Loan of ₹1 lakh to ₹50 lakh with 5% interest subsidy",
+      "hi": "₹1 लाख से ₹50 लाख तक का ऋण, 5% ब्याज अनुदान"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "category",
+          "op": "eq",
+          "value": "st"
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            45
+          ]
+        },
+        {
+          "field": "wantsToStartBusiness",
+          "op": "true"
+        }
+      ]
+    },
+    "alsoRequired": [
+      {
+        "en": "Passed Class 8; family income up to ₹12 lakh",
+        "hi": "8वीं उत्तीर्ण; पारिवारिक आय ₹12 लाख तक"
+      }
+    ],
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "caste_cert",
+      "business_plan",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Apply online on the SAMAST portal.",
+      "hi": "SAMAST पोर्टल पर ऑनलाइन आवेदन करें।"
+    },
+    "applyUrl": "https://samast.mponline.gov.in",
+    "sourceUrl": "https://samast.mponline.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-path-vikreta",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Gramin Path Vikreta Yojana",
+      "hi": "मुख्यमंत्री ग्रामीण पथ विक्रेता योजना"
+    },
+    "ministry": "Panchayat & Rural Development Dept., Govt. of MP",
+    "category": "business",
+    "summary": {
+      "en": "Interest-free working-capital loan for village street vendors and small traders.",
+      "hi": "गाँव के पथ विक्रेताओं और छोटे व्यवसायियों के लिए ब्याज-मुक्त कार्यशील पूंजी ऋण।"
+    },
+    "benefit": {
+      "en": "Interest-free loan of ₹10,000",
+      "hi": "₹10,000 का ब्याज-मुक्त ऋण"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "occupation",
+          "op": "eq",
+          "value": "street_vendor"
+        },
+        {
+          "field": "area",
+          "op": "eq",
+          "value": "rural"
+        },
+        {
+          "field": "age",
+          "op": "between",
+          "value": [
+            18,
+            55
+          ]
+        }
+      ]
+    },
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "bank_passbook",
+      "mobile"
+    ],
+    "howToApply": {
+      "en": "Register on the Kamgar Setu portal or at the Gram Panchayat.",
+      "hi": "कामगार सेतु पोर्टल या ग्राम पंचायत में पंजीयन करें।"
+    },
+    "applyUrl": "https://kamgarsetu.mp.gov.in",
+    "sourceUrl": "https://kamgarsetu.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-teerth-darshan",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Teerth Darshan Yojana",
+      "hi": "मुख्यमंत्री तीर्थ दर्शन योजना"
+    },
+    "ministry": "Religious Trusts & Endowments Dept., Govt. of MP",
+    "category": "pension",
+    "summary": {
+      "en": "A free pilgrimage by special train for senior citizens.",
+      "hi": "वरिष्ठ नागरिकों के लिए विशेष ट्रेन से निःशुल्क तीर्थ यात्रा।"
+    },
+    "benefit": {
+      "en": "Free travel, food and stay for one pilgrimage",
+      "hi": "एक तीर्थ यात्रा के लिए निःशुल्क यात्रा, भोजन और ठहरना"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "age",
+              "op": "gte",
+              "value": 60
+            },
+            {
+              "all": [
+                {
+                  "field": "gender",
+                  "op": "eq",
+                  "value": "female"
+                },
+                {
+                  "field": "age",
+                  "op": "gte",
+                  "value": 58
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "photo",
+      "address_proof"
+    ],
+    "howToApply": {
+      "en": "Submit the form at the Tehsil / Collector office or municipal office when a journey is announced; selection is by lottery if applicants exceed seats.",
+      "hi": "यात्रा घोषित होने पर तहसील / कलेक्टर कार्यालय या नगर निगम में फ़ॉर्म जमा करें; आवेदक अधिक होने पर लॉटरी से चयन।"
+    },
+    "applyUrl": "https://dharmasva.mp.gov.in",
+    "sourceUrl": "https://dharmasva.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Journeys are announced through the year, each with its own last date.",
+        "hi": "यात्राएँ साल भर घोषित होती हैं, हर यात्रा की अपनी अंतिम तिथि होती है।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-aahar-anudan",
+    "level": "household",
+    "scope": "mp",
+    "name": {
+      "en": "Aahar Anudan Yojana (Baiga, Bharia, Saharia)",
+      "hi": "आहार अनुदान योजना (बैगा, भारिया, सहरिया)"
+    },
+    "ministry": "Tribal Affairs Dept., Govt. of MP",
+    "category": "food",
+    "summary": {
+      "en": "Monthly nutrition money for the woman head of Baiga, Bharia and Saharia families.",
+      "hi": "बैगा, भारिया और सहरिया परिवारों की महिला मुखिया को हर महीने पोषण राशि।"
+    },
+    "benefit": {
+      "en": "₹1,500 every month",
+      "hi": "हर महीने ₹1,500",
+      "cashPerYear": 18000
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "isPVTG",
+          "op": "true"
+        },
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "caste_cert",
+      "bank_passbook"
+    ],
+    "howToApply": {
+      "en": "Apply through the Gram Panchayat or the Tribal Affairs office of your district.",
+      "hi": "ग्राम पंचायत या ज़िले के जनजातीय कार्य विभाग कार्यालय के माध्यम से आवेदन करें।"
+    },
+    "applyUrl": "https://www.tribal.mp.gov.in",
+    "sourceUrl": "https://www.tribal.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null
+  },
+  {
+    "id": "mp-kalyani-vivah",
+    "scope": "mp",
+    "name": {
+      "en": "Mukhyamantri Kalyani Vivah Sahayata Yojana",
+      "hi": "मुख्यमंत्री कल्याणी विवाह सहायता योजना"
+    },
+    "ministry": "Social Justice & Disabled Welfare Dept., Govt. of MP",
+    "category": "women_child",
+    "summary": {
+      "en": "Financial help when a widow remarries.",
+      "hi": "विधवा के पुनर्विवाह पर आर्थिक सहायता।"
+    },
+    "benefit": {
+      "en": "₹2 lakh on remarriage",
+      "hi": "पुनर्विवाह पर ₹2 लाख"
+    },
+    "eligibility": {
+      "all": [
+        {
+          "field": "gender",
+          "op": "eq",
+          "value": "female"
+        },
+        {
+          "field": "maritalStatus",
+          "op": "eq",
+          "value": "widowed"
+        },
+        {
+          "field": "age",
+          "op": "gte",
+          "value": 18
+        },
+        {
+          "field": "isIncomeTaxPayer",
+          "op": "false"
+        },
+        {
+          "field": "isGovtEmployee",
+          "op": "false"
+        }
+      ]
+    },
+    "documents": [
+      "samagra_id",
+      "aadhaar",
+      "death_cert",
+      "bank_passbook",
+      "photo"
+    ],
+    "howToApply": {
+      "en": "Apply to the District Collector / Joint Director, Social Justice within one year of the remarriage.",
+      "hi": "पुनर्विवाह के एक वर्ष के भीतर ज़िला कलेक्टर / संयुक्त संचालक, सामाजिक न्याय को आवेदन करें।"
+    },
+    "applyUrl": "https://socialjustice.mp.gov.in",
+    "sourceUrl": "https://socialjustice.mp.gov.in",
+    "helpline": "181",
+    "deadline": {
+      "type": "rolling",
+      "note": {
+        "en": "Apply any time.",
+        "hi": "कभी भी आवेदन करें।"
+      }
+    },
+    "reviewedOn": null,
+    "eventBased": {
+      "en": "Paid at the time of marriage",
+      "hi": "विवाह के समय मिलती है"
+    }
+  }
+]
